@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/main.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/main.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/main.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o"
+}
+]
