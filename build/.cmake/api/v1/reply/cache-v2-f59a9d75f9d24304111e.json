@@ -1180,6 +1180,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/maliha/Desktop/conveyor-simulator"
+		},
+		{
+			"name" : "c_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/maliha/Desktop/conveyor-simulator/build"
+		},
+		{
+			"name" : "c_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "c_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/maliha/Desktop/conveyor-simulator"
 		}
 	],
 	"kind" : "cache",

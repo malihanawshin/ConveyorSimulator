@@ -129,6 +129,54 @@ conveyor_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/build
 .PHONY : conveyor_sim/fast
 
+src/AlarmManager.o: src/AlarmManager.cpp.o
+.PHONY : src/AlarmManager.o
+
+# target to build an object file
+src/AlarmManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o
+.PHONY : src/AlarmManager.cpp.o
+
+src/AlarmManager.i: src/AlarmManager.cpp.i
+.PHONY : src/AlarmManager.i
+
+# target to preprocess a source file
+src/AlarmManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.i
+.PHONY : src/AlarmManager.cpp.i
+
+src/AlarmManager.s: src/AlarmManager.cpp.s
+.PHONY : src/AlarmManager.s
+
+# target to generate assembly for a file
+src/AlarmManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.s
+.PHONY : src/AlarmManager.cpp.s
+
+src/Conveyor.o: src/Conveyor.cpp.o
+.PHONY : src/Conveyor.o
+
+# target to build an object file
+src/Conveyor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.o
+.PHONY : src/Conveyor.cpp.o
+
+src/Conveyor.i: src/Conveyor.cpp.i
+.PHONY : src/Conveyor.i
+
+# target to preprocess a source file
+src/Conveyor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.i
+.PHONY : src/Conveyor.cpp.i
+
+src/Conveyor.s: src/Conveyor.cpp.s
+.PHONY : src/Conveyor.s
+
+# target to generate assembly for a file
+src/Conveyor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.s
+.PHONY : src/Conveyor.cpp.s
+
 src/MachineController.o: src/MachineController.cpp.o
 .PHONY : src/MachineController.o
 
@@ -152,6 +200,54 @@ src/MachineController.s: src/MachineController.cpp.s
 src/MachineController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.s
 .PHONY : src/MachineController.cpp.s
+
+src/Sensor.o: src/Sensor.cpp.o
+.PHONY : src/Sensor.o
+
+# target to build an object file
+src/Sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o
+.PHONY : src/Sensor.cpp.o
+
+src/Sensor.i: src/Sensor.cpp.i
+.PHONY : src/Sensor.i
+
+# target to preprocess a source file
+src/Sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.i
+.PHONY : src/Sensor.cpp.i
+
+src/Sensor.s: src/Sensor.cpp.s
+.PHONY : src/Sensor.s
+
+# target to generate assembly for a file
+src/Sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.s
+.PHONY : src/Sensor.cpp.s
+
+src/SorterGate.o: src/SorterGate.cpp.o
+.PHONY : src/SorterGate.o
+
+# target to build an object file
+src/SorterGate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o
+.PHONY : src/SorterGate.cpp.o
+
+src/SorterGate.i: src/SorterGate.cpp.i
+.PHONY : src/SorterGate.i
+
+# target to preprocess a source file
+src/SorterGate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.i
+.PHONY : src/SorterGate.cpp.i
+
+src/SorterGate.s: src/SorterGate.cpp.s
+.PHONY : src/SorterGate.s
+
+# target to generate assembly for a file
+src/SorterGate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.s
+.PHONY : src/SorterGate.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +282,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... conveyor_sim"
+	@echo "... src/AlarmManager.o"
+	@echo "... src/AlarmManager.i"
+	@echo "... src/AlarmManager.s"
+	@echo "... src/Conveyor.o"
+	@echo "... src/Conveyor.i"
+	@echo "... src/Conveyor.s"
 	@echo "... src/MachineController.o"
 	@echo "... src/MachineController.i"
 	@echo "... src/MachineController.s"
+	@echo "... src/Sensor.o"
+	@echo "... src/Sensor.i"
+	@echo "... src/Sensor.s"
+	@echo "... src/SorterGate.o"
+	@echo "... src/SorterGate.i"
+	@echo "... src/SorterGate.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

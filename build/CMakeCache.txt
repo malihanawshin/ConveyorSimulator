@@ -227,6 +227,15 @@ ConveyorSimulator_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 ConveyorSimulator_SOURCE_DIR:STATIC=/Users/maliha/Desktop/conveyor-simulator
 
+//Value Computed by CMake
+c_BINARY_DIR:STATIC=/Users/maliha/Desktop/conveyor-simulator/build
+
+//Value Computed by CMake
+c_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+c_SOURCE_DIR:STATIC=/Users/maliha/Desktop/conveyor-simulator
+
 
 ########################
 # INTERNAL cache entries

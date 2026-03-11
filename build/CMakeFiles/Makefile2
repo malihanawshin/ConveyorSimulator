@@ -85,12 +85,12 @@ clean: CMakeFiles/conveyor_sim.dir/clean
 CMakeFiles/conveyor_sim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=1,2,3 "Built target conveyor_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target conveyor_sim"
 .PHONY : CMakeFiles/conveyor_sim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/conveyor_sim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/conveyor_sim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles 0
 .PHONY : CMakeFiles/conveyor_sim.dir/rule
@@ -102,7 +102,7 @@ conveyor_sim: CMakeFiles/conveyor_sim.dir/rule
 # codegen rule for target.
 CMakeFiles/conveyor_sim.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target conveyor_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target conveyor_sim"
 .PHONY : CMakeFiles/conveyor_sim.dir/codegen
 
 # clean rule for target.

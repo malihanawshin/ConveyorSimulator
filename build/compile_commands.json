@@ -10,5 +10,29 @@
   "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp",
   "file": "/Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp",
   "output": "CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o"
 }
 ]
