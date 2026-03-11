@@ -128,12 +128,27 @@ CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/tests/ConveyorSystemTests.cpp -o CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.s
 
+CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o: CMakeFiles/conveyor_tests.dir/flags.make
+CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o: /Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp
+CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o: CMakeFiles/conveyor_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o -MF CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o.d -o CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp
+
+CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp > CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.i
+
+CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp -o CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.s
+
 # Object files for target conveyor_tests
 conveyor_tests_OBJECTS = \
 "CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.o" \
 "CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.o" \
 "CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.o" \
-"CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o"
+"CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o" \
+"CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o"
 
 # External object files for target conveyor_tests
 conveyor_tests_EXTERNAL_OBJECTS =
@@ -142,12 +157,13 @@ conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.o
 conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.o
 conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.o
 conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o
+conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o
 conveyor_tests: CMakeFiles/conveyor_tests.dir/build.make
 conveyor_tests: libconveyor_core.a
 conveyor_tests: lib/libgtest_main.a
 conveyor_tests: lib/libgtest.a
 conveyor_tests: CMakeFiles/conveyor_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable conveyor_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable conveyor_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/conveyor_tests.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/cmake -D TEST_TARGET=conveyor_tests -D TEST_EXECUTABLE=/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/maliha/Desktop/conveyor-simulator/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=conveyor_tests_TESTS -D CTEST_FILE=/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
 

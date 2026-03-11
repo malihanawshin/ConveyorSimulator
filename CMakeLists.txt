@@ -38,6 +38,7 @@ add_executable(conveyor_tests
     tests/SensorTests.cpp
     tests/AlarmManagerTests.cpp
     tests/ConveyorSystemTests.cpp
+    tests/SimulationEngineTests.cpp
 )
 
 target_link_libraries(conveyor_tests

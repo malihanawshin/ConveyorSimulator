@@ -526,6 +526,30 @@ tests/SensorTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.s
 .PHONY : tests/SensorTests.cpp.s
 
+tests/SimulationEngineTests.o: tests/SimulationEngineTests.cpp.o
+.PHONY : tests/SimulationEngineTests.o
+
+# target to build an object file
+tests/SimulationEngineTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o
+.PHONY : tests/SimulationEngineTests.cpp.o
+
+tests/SimulationEngineTests.i: tests/SimulationEngineTests.cpp.i
+.PHONY : tests/SimulationEngineTests.i
+
+# target to preprocess a source file
+tests/SimulationEngineTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.i
+.PHONY : tests/SimulationEngineTests.cpp.i
+
+tests/SimulationEngineTests.s: tests/SimulationEngineTests.cpp.s
+.PHONY : tests/SimulationEngineTests.s
+
+# target to generate assembly for a file
+tests/SimulationEngineTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.s
+.PHONY : tests/SimulationEngineTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -579,6 +603,9 @@ help:
 	@echo "... tests/SensorTests.o"
 	@echo "... tests/SensorTests.i"
 	@echo "... tests/SensorTests.s"
+	@echo "... tests/SimulationEngineTests.o"
+	@echo "... tests/SimulationEngineTests.i"
+	@echo "... tests/SimulationEngineTests.s"
 .PHONY : help
 
 

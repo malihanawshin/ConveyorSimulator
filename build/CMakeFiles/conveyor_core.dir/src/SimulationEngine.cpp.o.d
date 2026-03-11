@@ -1,7 +1,6 @@
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: \
   /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp \
   /Users/maliha/Desktop/conveyor-simulator/include/SimulationEngine.h \
-  /Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -753,6 +752,7 @@ CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
+  /Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \

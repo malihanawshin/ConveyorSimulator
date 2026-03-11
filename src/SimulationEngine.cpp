@@ -10,63 +10,65 @@ void SimulationEngine::run() {
     std::cout << "=== Conveyor Sorting Cell Simulation ===\n\n";
 
     printStatus();
-    startupSequence();
-    normalItemCycle();
-    jamFaultCycle();
-    resetSystem();
+
+    std::cout << "\n--- Startup step ---\n";
+    startupStep();
+    printStatus();
+    sleepMs(400);
+
+    std::cout << "\n--- Normal item step ---\n";
+    processNormalItemStep();
+    printStatus();
+    sleepMs(400);
+
+    std::cout << "\n--- Jam fault step ---\n";
+    processJamFaultStep();
+    printStatus();
+    sleepMs(400);
+
+    std::cout << "\n--- Reset step ---\n";
+    resetStep();
+    printStatus();
 
     std::cout << "\n=== Simulation finished ===\n";
 }
 
-void SimulationEngine::startupSequence() {
-    std::cout << "\n--- Startup sequence ---\n";
-
+void SimulationEngine::startupStep() {
     controller.start();
-    std::cout << "Start command issued. State: " << controller.getStateName() << "\n";
 
     for (int i = 0; i < 3; ++i) {
         controller.tick();
-        std::cout << "Tick " << i + 1 << " -> State: " << controller.getStateName() << "\n";
-        sleepMs(400);
     }
 
     if (controller.getState() == MachineState::Running) {
         conveyor.start();
     }
-
-    std::cout << "Conveyor running: " << (conveyor.isRunning() ? "YES" : "NO") << "\n";
 }
 
-void SimulationEngine::normalItemCycle() {
-    std::cout << "\n--- Normal item cycle ---\n";
+void SimulationEngine::processNormalItemStep() {
+    if (controller.getState() != MachineState::Running) {
+        return;
+    }
 
     entrySensor.detectItem();
-    std::cout << "Item detected at entry sensor\n";
 
     for (int i = 0; i < 2; ++i) {
         entrySensor.tick();
-        std::cout << "Sensor blocked ticks: " << entrySensor.getBlockedTicks() << "\n";
-        sleepMs(300);
     }
 
     gate.setRouteLeft();
-    std::cout << "Gate switched to: " << gate.getPosition() << "\n";
-    std::cout << "Item sorted to LEFT\n";
-
     entrySensor.clear();
-    std::cout << "Sensor state: " << (entrySensor.isBlocked() ? "BLOCKED" : "CLEAR") << "\n";
 }
 
-void SimulationEngine::jamFaultCycle() {
-    std::cout << "\n--- Jam fault cycle ---\n";
+void SimulationEngine::processJamFaultStep() {
+    if (controller.getState() != MachineState::Running) {
+        return;
+    }
 
     entrySensor.detectItem();
-    std::cout << "Second item detected at entry sensor\n";
 
     for (int i = 0; i < 5; ++i) {
         entrySensor.tick();
-        std::cout << "Sensor blocked ticks: " << entrySensor.getBlockedTicks() << "\n";
-        sleepMs(300);
     }
 
     if (entrySensor.getBlockedTicks() > 3) {
@@ -74,26 +76,42 @@ void SimulationEngine::jamFaultCycle() {
         controller.triggerFault(alarms.getLatestAlarm());
         conveyor.stop();
     }
-
-    printStatus();
 }
 
-void SimulationEngine::resetSystem() {
-    std::cout << "\n--- Reset system ---\n";
-
+void SimulationEngine::resetStep() {
     controller.resetFault();
     alarms.clearAlarms();
     entrySensor.clear();
+}
 
-    printStatus();
+SimulationSnapshot SimulationEngine::getSnapshot() const {
+    return SimulationSnapshot{
+        controller.getStateName(),
+        conveyor.isRunning(),
+        gate.getPosition(),
+        entrySensor.isBlocked(),
+        entrySensor.getBlockedTicks(),
+        alarms.getLatestAlarm()
+    };
+}
+
+std::vector<std::string> SimulationEngine::buildStatusLines() const {
+    SimulationSnapshot snapshot = getSnapshot();
+
+    return {
+        "Machine state: " + snapshot.machineState,
+        std::string("Conveyor running: ") + (snapshot.conveyorRunning ? "YES" : "NO"),
+        "Gate position: " + snapshot.gatePosition,
+        std::string("Sensor state: ") + (snapshot.sensorBlocked ? "BLOCKED" : "CLEAR"),
+        "Sensor blocked ticks: " + std::to_string(snapshot.sensorBlockedTicks),
+        "Latest alarm: " + snapshot.latestAlarm
+    };
 }
 
 void SimulationEngine::printStatus() const {
-    std::cout << "Machine state: " << controller.getStateName() << "\n";
-    std::cout << "Conveyor running: " << (conveyor.isRunning() ? "YES" : "NO") << "\n";
-    std::cout << "Gate position: " << gate.getPosition() << "\n";
-    std::cout << "Sensor state: " << (entrySensor.isBlocked() ? "BLOCKED" : "CLEAR") << "\n";
-    std::cout << "Latest alarm: " << alarms.getLatestAlarm() << "\n";
+    for (const auto& line : buildStatusLines()) {
+        std::cout << line << "\n";
+    }
 }
 
 void SimulationEngine::sleepMs(int milliseconds) const {

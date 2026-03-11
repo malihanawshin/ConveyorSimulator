@@ -1,5 +1,5 @@
 {
-  "tests": 12,
+  "tests": 16,
   "name": "AllTests",
   "testsuites": [
     {
@@ -83,6 +83,32 @@
           "name": "JamConditionTriggersFaultAndStopsConveyor",
           "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/ConveyorSystemTests.cpp",
           "line": 40
+        }
+      ]
+    },
+    {
+      "name": "SimulationEngineTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "StartupStepMovesSystemToRunningAndStartsConveyor",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "NormalItemStepRoutesItemWithoutAlarm",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
+          "line": 17
+        },
+        {
+          "name": "JamFaultStepTriggersFaultAndStopsConveyor",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
+          "line": 33
+        },
+        {
+          "name": "ResetStepReturnsSystemToIdleAndClearsAlarm",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
+          "line": 48
         }
       ]
     }

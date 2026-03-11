@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.o.d"
   "CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.o"
   "CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.o.d"
+  "CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o"
+  "CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o.d"
   "conveyor_tests"
   "conveyor_tests.pdb"
   "conveyor_tests[1]_tests.cmake"

@@ -66,6 +66,12 @@
   "output": "CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o"
 },
 {
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -isystem /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/include -isystem /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/tests/SimulationEngineTests.cpp",
+  "output": "CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o"
+},
+{
   "directory": "/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/googlemock",
   "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googlemock/include -I/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googlemock -isystem /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/include -isystem /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest -g -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "file": "/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
