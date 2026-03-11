@@ -754,6 +754,7 @@ CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/ItemType.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Sensor.h \

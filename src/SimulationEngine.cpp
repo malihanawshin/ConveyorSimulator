@@ -17,7 +17,8 @@ void SimulationEngine::run() {
     sleepMs(400);
 
     std::cout << "\n--- Normal item step ---\n";
-    processNormalItemStep();
+    //processNormalItemStep();
+    processNormalItemStep(ItemType::TypeA);
     printStatus();
     sleepMs(400);
 
@@ -45,7 +46,7 @@ void SimulationEngine::startupStep() {
     }
 }
 
-void SimulationEngine::processNormalItemStep() {
+void SimulationEngine::processNormalItemStep(ItemType itemType) {
     if (controller.getState() != MachineState::Running) {
         return;
     }
@@ -56,9 +57,18 @@ void SimulationEngine::processNormalItemStep() {
         entrySensor.tick();
     }
 
-    gate.setRouteLeft();
+    switch (itemType) {
+        case ItemType::TypeA:
+            gate.setRouteLeft();
+            break;
+        case ItemType::TypeB:
+            gate.setRouteRight();
+            break;
+    }
+
     entrySensor.clear();
 }
+
 
 void SimulationEngine::processJamFaultStep() {
     if (controller.getState() != MachineState::Running) {

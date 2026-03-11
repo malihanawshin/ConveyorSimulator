@@ -93,22 +93,22 @@
         {
           "name": "StartupStepMovesSystemToRunningAndStartsConveyor",
           "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
-          "line": 4
+          "line": 5
         },
         {
-          "name": "NormalItemStepRoutesItemWithoutAlarm",
+          "name": "NormalItemStepRoutesTypeAToLeft",
           "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
-          "line": 17
+          "line": 18
+        },
+        {
+          "name": "NormalItemStepRoutesTypeBToRight",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
+          "line": 34
         },
         {
           "name": "JamFaultStepTriggersFaultAndStopsConveyor",
           "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
-          "line": 33
-        },
-        {
-          "name": "ResetStepReturnsSystemToIdleAndClearsAlarm",
-          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SimulationEngineTests.cpp",
-          "line": 48
+          "line": 50
         }
       ]
     }

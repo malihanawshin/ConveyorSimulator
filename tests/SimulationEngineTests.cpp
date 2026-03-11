@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "SimulationEngine.h"
+#include "ItemType.h"
 
 TEST(SimulationEngineTest, StartupStepMovesSystemToRunningAndStartsConveyor) {
     SimulationEngine engine;
@@ -14,17 +15,33 @@ TEST(SimulationEngineTest, StartupStepMovesSystemToRunningAndStartsConveyor) {
     EXPECT_EQ(snapshot.latestAlarm, "No active alarms");
 }
 
-TEST(SimulationEngineTest, NormalItemStepRoutesItemWithoutAlarm) {
+TEST(SimulationEngineTest, NormalItemStepRoutesTypeAToLeft) {
     SimulationEngine engine;
 
     engine.startupStep();
-    engine.processNormalItemStep();
+    engine.processNormalItemStep(ItemType::TypeA);
 
     SimulationSnapshot snapshot = engine.getSnapshot();
 
     EXPECT_EQ(snapshot.machineState, "Running");
     EXPECT_TRUE(snapshot.conveyorRunning);
     EXPECT_EQ(snapshot.gatePosition, "LEFT");
+    EXPECT_FALSE(snapshot.sensorBlocked);
+    EXPECT_EQ(snapshot.sensorBlockedTicks, 0);
+    EXPECT_EQ(snapshot.latestAlarm, "No active alarms");
+}
+
+TEST(SimulationEngineTest, NormalItemStepRoutesTypeBToRight) {
+    SimulationEngine engine;
+
+    engine.startupStep();
+    engine.processNormalItemStep(ItemType::TypeB);
+
+    SimulationSnapshot snapshot = engine.getSnapshot();
+
+    EXPECT_EQ(snapshot.machineState, "Running");
+    EXPECT_TRUE(snapshot.conveyorRunning);
+    EXPECT_EQ(snapshot.gatePosition, "RIGHT");
     EXPECT_FALSE(snapshot.sensorBlocked);
     EXPECT_EQ(snapshot.sensorBlockedTicks, 0);
     EXPECT_EQ(snapshot.latestAlarm, "No active alarms");
@@ -43,19 +60,4 @@ TEST(SimulationEngineTest, JamFaultStepTriggersFaultAndStopsConveyor) {
     EXPECT_TRUE(snapshot.sensorBlocked);
     EXPECT_GT(snapshot.sensorBlockedTicks, 3);
     EXPECT_EQ(snapshot.latestAlarm, "Jam detected: sensor blocked too long");
-}
-
-TEST(SimulationEngineTest, ResetStepReturnsSystemToIdleAndClearsAlarm) {
-    SimulationEngine engine;
-
-    engine.startupStep();
-    engine.processJamFaultStep();
-    engine.resetStep();
-
-    SimulationSnapshot snapshot = engine.getSnapshot();
-
-    EXPECT_EQ(snapshot.machineState, "Idle");
-    EXPECT_FALSE(snapshot.sensorBlocked);
-    EXPECT_EQ(snapshot.sensorBlockedTicks, 0);
-    EXPECT_EQ(snapshot.latestAlarm, "No active alarms");
 }

@@ -5,6 +5,7 @@
 
 #include "AlarmManager.h"
 #include "Conveyor.h"
+#include "ItemType.h"
 #include "MachineController.h"
 #include "Sensor.h"
 #include "SorterGate.h"
@@ -25,7 +26,7 @@ public:
     void run();
 
     void startupStep();
-    void processNormalItemStep();
+    void processNormalItemStep(ItemType itemType);
     void processJamFaultStep();
     void resetStep();
 
