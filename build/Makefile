@@ -225,6 +225,30 @@ src/Sensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.s
 .PHONY : src/Sensor.cpp.s
 
+src/SimulationEngine.o: src/SimulationEngine.cpp.o
+.PHONY : src/SimulationEngine.o
+
+# target to build an object file
+src/SimulationEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o
+.PHONY : src/SimulationEngine.cpp.o
+
+src/SimulationEngine.i: src/SimulationEngine.cpp.i
+.PHONY : src/SimulationEngine.i
+
+# target to preprocess a source file
+src/SimulationEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.i
+.PHONY : src/SimulationEngine.cpp.i
+
+src/SimulationEngine.s: src/SimulationEngine.cpp.s
+.PHONY : src/SimulationEngine.s
+
+# target to generate assembly for a file
+src/SimulationEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.s
+.PHONY : src/SimulationEngine.cpp.s
+
 src/SorterGate.o: src/SorterGate.cpp.o
 .PHONY : src/SorterGate.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... src/Sensor.o"
 	@echo "... src/Sensor.i"
 	@echo "... src/Sensor.s"
+	@echo "... src/SimulationEngine.o"
+	@echo "... src/SimulationEngine.i"
+	@echo "... src/SimulationEngine.s"
 	@echo "... src/SorterGate.o"
 	@echo "... src/SorterGate.i"
 	@echo "... src/SorterGate.s"

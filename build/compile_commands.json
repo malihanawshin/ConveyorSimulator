@@ -34,5 +34,11 @@
   "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp",
   "file": "/Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp",
   "output": "CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o"
+},
+{
+  "directory": "/Users/maliha/Desktop/conveyor-simulator/build",
+  "command": "/usr/bin/clang++  -I/Users/maliha/Desktop/conveyor-simulator/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp",
+  "file": "/Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp",
+  "output": "CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o"
 }
 ]

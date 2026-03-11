@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o.d"
   "CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o"
   "CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o.d"
+  "CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o"
+  "CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o.d"
   "CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o"
   "CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o.d"
   "CMakeFiles/conveyor_sim.dir/src/main.cpp.o"

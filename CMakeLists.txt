@@ -12,6 +12,7 @@ add_executable(conveyor_sim
     src/Sensor.cpp
     src/SorterGate.cpp
     src/AlarmManager.cpp
+    src/SimulationEngine.cpp
 )
 
 target_include_directories(conveyor_sim PRIVATE include)
