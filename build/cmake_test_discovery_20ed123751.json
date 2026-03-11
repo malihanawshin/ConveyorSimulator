@@ -1,0 +1,90 @@
+{
+  "tests": 12,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MachineControllerTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "StartsFromIdleToRunningAfterThreeTicks",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/MachineControllerTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "FaultMovesControllerToFaultState",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/MachineControllerTests.cpp",
+          "line": 22
+        },
+        {
+          "name": "ResetAfterFaultReturnsToIdle",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/MachineControllerTests.cpp",
+          "line": 31
+        },
+        {
+          "name": "EmergencyStopOverridesNormalOperation",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/MachineControllerTests.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "SensorTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DetectItemBlocksSensor",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SensorTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "TickIncreasesBlockedTicksWhenBlocked",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SensorTests.cpp",
+          "line": 16
+        },
+        {
+          "name": "ClearResetsSensorState",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/SensorTests.cpp",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "name": "AlarmManagerTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "NoActiveAlarmInitially",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/AlarmManagerTests.cpp",
+          "line": 4
+        },
+        {
+          "name": "RaiseAlarmStoresLatestAlarm",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/AlarmManagerTests.cpp",
+          "line": 11
+        },
+        {
+          "name": "ClearAlarmsRemovesAllActiveAlarms",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/AlarmManagerTests.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "ConveyorSystemTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "NormalItemFlowStartsSystemAndSortsLeft",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/ConveyorSystemTests.cpp",
+          "line": 8
+        },
+        {
+          "name": "JamConditionTriggersFaultAndStopsConveyor",
+          "file": "\/Users\/maliha\/Desktop\/conveyor-simulator\/tests\/ConveyorSystemTests.cpp",
+          "line": 40
+        }
+      ]
+    }
+  ]
+}

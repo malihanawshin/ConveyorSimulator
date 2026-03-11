@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /Users/maliha/Desktop/conveyor-simulator/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/opt/homebrew/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,6 +172,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named conveyor_core
+
+# Build rule for target.
+conveyor_core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_core
+.PHONY : conveyor_core
+
+# fast build rule for target.
+conveyor_core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/build
+.PHONY : conveyor_core/fast
+
+#=============================================================================
 # Target rules for targets named conveyor_sim
 
 # Build rule for target.
@@ -129,12 +197,77 @@ conveyor_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/build
 .PHONY : conveyor_sim/fast
 
+#=============================================================================
+# Target rules for targets named conveyor_tests
+
+# Build rule for target.
+conveyor_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_tests
+.PHONY : conveyor_tests
+
+# fast build rule for target.
+conveyor_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/build
+.PHONY : conveyor_tests/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/AlarmManager.o: src/AlarmManager.cpp.o
 .PHONY : src/AlarmManager.o
 
 # target to build an object file
 src/AlarmManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o
 .PHONY : src/AlarmManager.cpp.o
 
 src/AlarmManager.i: src/AlarmManager.cpp.i
@@ -142,7 +275,7 @@ src/AlarmManager.i: src/AlarmManager.cpp.i
 
 # target to preprocess a source file
 src/AlarmManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.i
 .PHONY : src/AlarmManager.cpp.i
 
 src/AlarmManager.s: src/AlarmManager.cpp.s
@@ -150,7 +283,7 @@ src/AlarmManager.s: src/AlarmManager.cpp.s
 
 # target to generate assembly for a file
 src/AlarmManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/AlarmManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s
 .PHONY : src/AlarmManager.cpp.s
 
 src/Conveyor.o: src/Conveyor.cpp.o
@@ -158,7 +291,7 @@ src/Conveyor.o: src/Conveyor.cpp.o
 
 # target to build an object file
 src/Conveyor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o
 .PHONY : src/Conveyor.cpp.o
 
 src/Conveyor.i: src/Conveyor.cpp.i
@@ -166,7 +299,7 @@ src/Conveyor.i: src/Conveyor.cpp.i
 
 # target to preprocess a source file
 src/Conveyor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.i
 .PHONY : src/Conveyor.cpp.i
 
 src/Conveyor.s: src/Conveyor.cpp.s
@@ -174,7 +307,7 @@ src/Conveyor.s: src/Conveyor.cpp.s
 
 # target to generate assembly for a file
 src/Conveyor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Conveyor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.s
 .PHONY : src/Conveyor.cpp.s
 
 src/MachineController.o: src/MachineController.cpp.o
@@ -182,7 +315,7 @@ src/MachineController.o: src/MachineController.cpp.o
 
 # target to build an object file
 src/MachineController.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o
 .PHONY : src/MachineController.cpp.o
 
 src/MachineController.i: src/MachineController.cpp.i
@@ -190,7 +323,7 @@ src/MachineController.i: src/MachineController.cpp.i
 
 # target to preprocess a source file
 src/MachineController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/MachineController.cpp.i
 .PHONY : src/MachineController.cpp.i
 
 src/MachineController.s: src/MachineController.cpp.s
@@ -198,7 +331,7 @@ src/MachineController.s: src/MachineController.cpp.s
 
 # target to generate assembly for a file
 src/MachineController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/MachineController.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s
 .PHONY : src/MachineController.cpp.s
 
 src/Sensor.o: src/Sensor.cpp.o
@@ -206,7 +339,7 @@ src/Sensor.o: src/Sensor.cpp.o
 
 # target to build an object file
 src/Sensor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o
 .PHONY : src/Sensor.cpp.o
 
 src/Sensor.i: src/Sensor.cpp.i
@@ -214,7 +347,7 @@ src/Sensor.i: src/Sensor.cpp.i
 
 # target to preprocess a source file
 src/Sensor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Sensor.cpp.i
 .PHONY : src/Sensor.cpp.i
 
 src/Sensor.s: src/Sensor.cpp.s
@@ -222,7 +355,7 @@ src/Sensor.s: src/Sensor.cpp.s
 
 # target to generate assembly for a file
 src/Sensor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/Sensor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/Sensor.cpp.s
 .PHONY : src/Sensor.cpp.s
 
 src/SimulationEngine.o: src/SimulationEngine.cpp.o
@@ -230,7 +363,7 @@ src/SimulationEngine.o: src/SimulationEngine.cpp.o
 
 # target to build an object file
 src/SimulationEngine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o
 .PHONY : src/SimulationEngine.cpp.o
 
 src/SimulationEngine.i: src/SimulationEngine.cpp.i
@@ -238,7 +371,7 @@ src/SimulationEngine.i: src/SimulationEngine.cpp.i
 
 # target to preprocess a source file
 src/SimulationEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i
 .PHONY : src/SimulationEngine.cpp.i
 
 src/SimulationEngine.s: src/SimulationEngine.cpp.s
@@ -246,7 +379,7 @@ src/SimulationEngine.s: src/SimulationEngine.cpp.s
 
 # target to generate assembly for a file
 src/SimulationEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SimulationEngine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.s
 .PHONY : src/SimulationEngine.cpp.s
 
 src/SorterGate.o: src/SorterGate.cpp.o
@@ -254,7 +387,7 @@ src/SorterGate.o: src/SorterGate.cpp.o
 
 # target to build an object file
 src/SorterGate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o
 .PHONY : src/SorterGate.cpp.o
 
 src/SorterGate.i: src/SorterGate.cpp.i
@@ -262,7 +395,7 @@ src/SorterGate.i: src/SorterGate.cpp.i
 
 # target to preprocess a source file
 src/SorterGate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.i
 .PHONY : src/SorterGate.cpp.i
 
 src/SorterGate.s: src/SorterGate.cpp.s
@@ -270,7 +403,7 @@ src/SorterGate.s: src/SorterGate.cpp.s
 
 # target to generate assembly for a file
 src/SorterGate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/SorterGate.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s
 .PHONY : src/SorterGate.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -297,6 +430,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/AlarmManagerTests.o: tests/AlarmManagerTests.cpp.o
+.PHONY : tests/AlarmManagerTests.o
+
+# target to build an object file
+tests/AlarmManagerTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.o
+.PHONY : tests/AlarmManagerTests.cpp.o
+
+tests/AlarmManagerTests.i: tests/AlarmManagerTests.cpp.i
+.PHONY : tests/AlarmManagerTests.i
+
+# target to preprocess a source file
+tests/AlarmManagerTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.i
+.PHONY : tests/AlarmManagerTests.cpp.i
+
+tests/AlarmManagerTests.s: tests/AlarmManagerTests.cpp.s
+.PHONY : tests/AlarmManagerTests.s
+
+# target to generate assembly for a file
+tests/AlarmManagerTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.s
+.PHONY : tests/AlarmManagerTests.cpp.s
+
+tests/ConveyorSystemTests.o: tests/ConveyorSystemTests.cpp.o
+.PHONY : tests/ConveyorSystemTests.o
+
+# target to build an object file
+tests/ConveyorSystemTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o
+.PHONY : tests/ConveyorSystemTests.cpp.o
+
+tests/ConveyorSystemTests.i: tests/ConveyorSystemTests.cpp.i
+.PHONY : tests/ConveyorSystemTests.i
+
+# target to preprocess a source file
+tests/ConveyorSystemTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.i
+.PHONY : tests/ConveyorSystemTests.cpp.i
+
+tests/ConveyorSystemTests.s: tests/ConveyorSystemTests.cpp.s
+.PHONY : tests/ConveyorSystemTests.s
+
+# target to generate assembly for a file
+tests/ConveyorSystemTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.s
+.PHONY : tests/ConveyorSystemTests.cpp.s
+
+tests/MachineControllerTests.o: tests/MachineControllerTests.cpp.o
+.PHONY : tests/MachineControllerTests.o
+
+# target to build an object file
+tests/MachineControllerTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.o
+.PHONY : tests/MachineControllerTests.cpp.o
+
+tests/MachineControllerTests.i: tests/MachineControllerTests.cpp.i
+.PHONY : tests/MachineControllerTests.i
+
+# target to preprocess a source file
+tests/MachineControllerTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.i
+.PHONY : tests/MachineControllerTests.cpp.i
+
+tests/MachineControllerTests.s: tests/MachineControllerTests.cpp.s
+.PHONY : tests/MachineControllerTests.s
+
+# target to generate assembly for a file
+tests/MachineControllerTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/MachineControllerTests.cpp.s
+.PHONY : tests/MachineControllerTests.cpp.s
+
+tests/SensorTests.o: tests/SensorTests.cpp.o
+.PHONY : tests/SensorTests.o
+
+# target to build an object file
+tests/SensorTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.o
+.PHONY : tests/SensorTests.cpp.o
+
+tests/SensorTests.i: tests/SensorTests.cpp.i
+.PHONY : tests/SensorTests.i
+
+# target to preprocess a source file
+tests/SensorTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.i
+.PHONY : tests/SensorTests.cpp.i
+
+tests/SensorTests.s: tests/SensorTests.cpp.s
+.PHONY : tests/SensorTests.s
+
+# target to generate assembly for a file
+tests/SensorTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/tests/SensorTests.cpp.s
+.PHONY : tests/SensorTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -304,8 +533,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... conveyor_core"
 	@echo "... conveyor_sim"
+	@echo "... conveyor_tests"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... src/AlarmManager.o"
 	@echo "... src/AlarmManager.i"
 	@echo "... src/AlarmManager.s"
@@ -327,6 +567,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/AlarmManagerTests.o"
+	@echo "... tests/AlarmManagerTests.i"
+	@echo "... tests/AlarmManagerTests.s"
+	@echo "... tests/ConveyorSystemTests.o"
+	@echo "... tests/ConveyorSystemTests.i"
+	@echo "... tests/ConveyorSystemTests.s"
+	@echo "... tests/MachineControllerTests.o"
+	@echo "... tests/MachineControllerTests.i"
+	@echo "... tests/MachineControllerTests.s"
+	@echo "... tests/SensorTests.o"
+	@echo "... tests/SensorTests.i"
+	@echo "... tests/SensorTests.s"
 .PHONY : help
 
 

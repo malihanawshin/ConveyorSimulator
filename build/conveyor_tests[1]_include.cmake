@@ -1,0 +1,5 @@
+if(EXISTS "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests[1]_tests.cmake")
+  include("/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests[1]_tests.cmake")
+else()
+  add_test(conveyor_tests_NOT_BUILT conveyor_tests_NOT_BUILT)
+endif()

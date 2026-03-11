@@ -1,0 +1,327 @@
+Start testing: Mar 11 14:15 CET
+----------------------------------------------------------
+1/12 Testing: MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks
+1/12 Test: MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MachineControllerTest
+[ RUN      ] MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks
+[       OK ] MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks (0 ms)
+[----------] 1 test from MachineControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks" end time: Mar 11 14:15 CET
+"MachineControllerTest.StartsFromIdleToRunningAfterThreeTicks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: MachineControllerTest.FaultMovesControllerToFaultState
+2/12 Test: MachineControllerTest.FaultMovesControllerToFaultState
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=MachineControllerTest.FaultMovesControllerToFaultState" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"MachineControllerTest.FaultMovesControllerToFaultState" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MachineControllerTest.FaultMovesControllerToFaultState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MachineControllerTest
+[ RUN      ] MachineControllerTest.FaultMovesControllerToFaultState
+[       OK ] MachineControllerTest.FaultMovesControllerToFaultState (0 ms)
+[----------] 1 test from MachineControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MachineControllerTest.FaultMovesControllerToFaultState" end time: Mar 11 14:15 CET
+"MachineControllerTest.FaultMovesControllerToFaultState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: MachineControllerTest.ResetAfterFaultReturnsToIdle
+3/12 Test: MachineControllerTest.ResetAfterFaultReturnsToIdle
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=MachineControllerTest.ResetAfterFaultReturnsToIdle" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"MachineControllerTest.ResetAfterFaultReturnsToIdle" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MachineControllerTest.ResetAfterFaultReturnsToIdle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MachineControllerTest
+[ RUN      ] MachineControllerTest.ResetAfterFaultReturnsToIdle
+[       OK ] MachineControllerTest.ResetAfterFaultReturnsToIdle (0 ms)
+[----------] 1 test from MachineControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MachineControllerTest.ResetAfterFaultReturnsToIdle" end time: Mar 11 14:15 CET
+"MachineControllerTest.ResetAfterFaultReturnsToIdle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: MachineControllerTest.EmergencyStopOverridesNormalOperation
+4/12 Test: MachineControllerTest.EmergencyStopOverridesNormalOperation
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=MachineControllerTest.EmergencyStopOverridesNormalOperation" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"MachineControllerTest.EmergencyStopOverridesNormalOperation" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MachineControllerTest.EmergencyStopOverridesNormalOperation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MachineControllerTest
+[ RUN      ] MachineControllerTest.EmergencyStopOverridesNormalOperation
+[       OK ] MachineControllerTest.EmergencyStopOverridesNormalOperation (0 ms)
+[----------] 1 test from MachineControllerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MachineControllerTest.EmergencyStopOverridesNormalOperation" end time: Mar 11 14:15 CET
+"MachineControllerTest.EmergencyStopOverridesNormalOperation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: SensorTest.DetectItemBlocksSensor
+5/12 Test: SensorTest.DetectItemBlocksSensor
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=SensorTest.DetectItemBlocksSensor" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"SensorTest.DetectItemBlocksSensor" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SensorTest.DetectItemBlocksSensor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SensorTest
+[ RUN      ] SensorTest.DetectItemBlocksSensor
+[       OK ] SensorTest.DetectItemBlocksSensor (0 ms)
+[----------] 1 test from SensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SensorTest.DetectItemBlocksSensor" end time: Mar 11 14:15 CET
+"SensorTest.DetectItemBlocksSensor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: SensorTest.TickIncreasesBlockedTicksWhenBlocked
+6/12 Test: SensorTest.TickIncreasesBlockedTicksWhenBlocked
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=SensorTest.TickIncreasesBlockedTicksWhenBlocked" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"SensorTest.TickIncreasesBlockedTicksWhenBlocked" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SensorTest.TickIncreasesBlockedTicksWhenBlocked
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SensorTest
+[ RUN      ] SensorTest.TickIncreasesBlockedTicksWhenBlocked
+[       OK ] SensorTest.TickIncreasesBlockedTicksWhenBlocked (0 ms)
+[----------] 1 test from SensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SensorTest.TickIncreasesBlockedTicksWhenBlocked" end time: Mar 11 14:15 CET
+"SensorTest.TickIncreasesBlockedTicksWhenBlocked" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: SensorTest.ClearResetsSensorState
+7/12 Test: SensorTest.ClearResetsSensorState
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=SensorTest.ClearResetsSensorState" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"SensorTest.ClearResetsSensorState" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SensorTest.ClearResetsSensorState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SensorTest
+[ RUN      ] SensorTest.ClearResetsSensorState
+[       OK ] SensorTest.ClearResetsSensorState (0 ms)
+[----------] 1 test from SensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SensorTest.ClearResetsSensorState" end time: Mar 11 14:15 CET
+"SensorTest.ClearResetsSensorState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: AlarmManagerTest.NoActiveAlarmInitially
+8/12 Test: AlarmManagerTest.NoActiveAlarmInitially
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=AlarmManagerTest.NoActiveAlarmInitially" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"AlarmManagerTest.NoActiveAlarmInitially" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlarmManagerTest.NoActiveAlarmInitially
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlarmManagerTest
+[ RUN      ] AlarmManagerTest.NoActiveAlarmInitially
+[       OK ] AlarmManagerTest.NoActiveAlarmInitially (0 ms)
+[----------] 1 test from AlarmManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlarmManagerTest.NoActiveAlarmInitially" end time: Mar 11 14:15 CET
+"AlarmManagerTest.NoActiveAlarmInitially" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: AlarmManagerTest.RaiseAlarmStoresLatestAlarm
+9/12 Test: AlarmManagerTest.RaiseAlarmStoresLatestAlarm
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=AlarmManagerTest.RaiseAlarmStoresLatestAlarm" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"AlarmManagerTest.RaiseAlarmStoresLatestAlarm" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlarmManagerTest.RaiseAlarmStoresLatestAlarm
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlarmManagerTest
+[ RUN      ] AlarmManagerTest.RaiseAlarmStoresLatestAlarm
+[       OK ] AlarmManagerTest.RaiseAlarmStoresLatestAlarm (0 ms)
+[----------] 1 test from AlarmManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlarmManagerTest.RaiseAlarmStoresLatestAlarm" end time: Mar 11 14:15 CET
+"AlarmManagerTest.RaiseAlarmStoresLatestAlarm" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms
+10/12 Test: AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlarmManagerTest
+[ RUN      ] AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms
+[       OK ] AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms (0 ms)
+[----------] 1 test from AlarmManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms" end time: Mar 11 14:15 CET
+"AlarmManagerTest.ClearAlarmsRemovesAllActiveAlarms" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft
+11/12 Test: ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConveyorSystemTest
+[ RUN      ] ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft
+[       OK ] ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft (0 ms)
+[----------] 1 test from ConveyorSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft" end time: Mar 11 14:15 CET
+"ConveyorSystemTest.NormalItemFlowStartsSystemAndSortsLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor
+12/12 Test: ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor
+Command: "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests" "--gtest_filter=ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor" "--gtest_also_run_disabled_tests"
+Directory: /Users/maliha/Desktop/conveyor-simulator/build
+"ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor" start time: Mar 11 14:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConveyorSystemTest
+[ RUN      ] ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor
+[       OK ] ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor (0 ms)
+[----------] 1 test from ConveyorSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor" end time: Mar 11 14:15 CET
+"ConveyorSystemTest.JamConditionTriggersFaultAndStopsConveyor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 11 14:15 CET
