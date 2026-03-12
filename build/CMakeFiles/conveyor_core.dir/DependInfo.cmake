@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp" "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d"
+  "/Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp" "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp" "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp" "CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp" "CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o.d"

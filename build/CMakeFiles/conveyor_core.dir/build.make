@@ -142,10 +142,24 @@ CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp -o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s
 
+CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
+CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp
+CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -MF CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp
+
+CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp > CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i
+
+CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s
+
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -MF CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp
 
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i: cmake_force
@@ -163,6 +177,7 @@ conveyor_core_OBJECTS = \
 "CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o" \
 "CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o" \
 "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o" \
+"CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o" \
 "CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o"
 
 # External object files for target conveyor_core
@@ -173,10 +188,11 @@ libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o
+libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/build.make
 libconveyor_core.a: CMakeFiles/conveyor_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libconveyor_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libconveyor_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/conveyor_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/conveyor_core.dir/link.txt --verbose=$(VERBOSE)
 

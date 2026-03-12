@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "AlarmManager.h"
+#include "ConfigLoader.h"
 #include "Conveyor.h"
 #include "ItemType.h"
 #include "MachineController.h"
@@ -21,7 +22,7 @@ struct SimulationSnapshot {
 
 class SimulationEngine {
 public:
-    SimulationEngine();
+    explicit SimulationEngine(const std::string& configPath = "config/routing.json");
 
     void run();
 
@@ -38,8 +39,10 @@ private:
     Sensor entrySensor;
     SorterGate gate;
     AlarmManager alarms;
+    AppConfig config;
 
     std::vector<std::string> buildStatusLines() const;
+    void applyRouting(ItemType itemType);
     void printStatus() const;
     void sleepMs(int milliseconds) const;
 };

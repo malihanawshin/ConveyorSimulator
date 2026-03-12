@@ -12,7 +12,12 @@ FetchContent_Declare(
   URL https://github.com/google/googletest/archive/refs/tags/v1.15.2.zip
 )
 
-FetchContent_MakeAvailable(googletest)
+FetchContent_Declare(
+  json
+  URL https://github.com/nlohmann/json/releases/download/v3.12.0/json.tar.xz
+)
+
+FetchContent_MakeAvailable(googletest json)
 
 enable_testing()
 
@@ -22,16 +27,26 @@ add_library(conveyor_core
     src/Sensor.cpp
     src/SorterGate.cpp
     src/AlarmManager.cpp
+    src/ConfigLoader.cpp
     src/SimulationEngine.cpp
 )
 
 target_include_directories(conveyor_core PUBLIC include)
+
+target_link_libraries(conveyor_core PUBLIC nlohmann_json::nlohmann_json)
 
 add_executable(conveyor_sim
     src/main.cpp
 )
 
 target_link_libraries(conveyor_sim PRIVATE conveyor_core)
+
+add_custom_command(TARGET conveyor_sim POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/config
+    $<TARGET_FILE_DIR:conveyor_sim>/config
+)
+
 
 add_executable(conveyor_tests
     tests/MachineControllerTests.cpp
@@ -46,6 +61,13 @@ target_link_libraries(conveyor_tests
     conveyor_core
     GTest::gtest_main
 )
+
+add_custom_command(TARGET conveyor_tests POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/config
+    $<TARGET_FILE_DIR:conveyor_tests>/config
+)
+
 
 include(GoogleTest)
 gtest_discover_tests(conveyor_tests)

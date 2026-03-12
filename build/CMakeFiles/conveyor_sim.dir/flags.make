@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/maliha/Desktop/conveyor-simulator/include
+CXX_INCLUDES = -I/Users/maliha/Desktop/conveyor-simulator/include -I/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-src/include
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
 

@@ -286,6 +286,30 @@ src/AlarmManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s
 .PHONY : src/AlarmManager.cpp.s
 
+src/ConfigLoader.o: src/ConfigLoader.cpp.o
+.PHONY : src/ConfigLoader.o
+
+# target to build an object file
+src/ConfigLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o
+.PHONY : src/ConfigLoader.cpp.o
+
+src/ConfigLoader.i: src/ConfigLoader.cpp.i
+.PHONY : src/ConfigLoader.i
+
+# target to preprocess a source file
+src/ConfigLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i
+.PHONY : src/ConfigLoader.cpp.i
+
+src/ConfigLoader.s: src/ConfigLoader.cpp.s
+.PHONY : src/ConfigLoader.s
+
+# target to generate assembly for a file
+src/ConfigLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s
+.PHONY : src/ConfigLoader.cpp.s
+
 src/Conveyor.o: src/Conveyor.cpp.o
 .PHONY : src/Conveyor.o
 
@@ -573,6 +597,9 @@ help:
 	@echo "... src/AlarmManager.o"
 	@echo "... src/AlarmManager.i"
 	@echo "... src/AlarmManager.s"
+	@echo "... src/ConfigLoader.o"
+	@echo "... src/ConfigLoader.i"
+	@echo "... src/ConfigLoader.s"
 	@echo "... src/Conveyor.o"
 	@echo "... src/Conveyor.i"
 	@echo "... src/Conveyor.s"

@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 include("/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests[1]_include.cmake")
 subdirs("_deps/googletest-build")
+subdirs("_deps/json-build")

@@ -4286,13 +4286,19 @@ CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o: /Users/maliha/D
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/ConfigLoader.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/ItemType.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Sensor.h \
   /Users/maliha/Desktop/conveyor-simulator/include/SimulationEngine.h \
   /Users/maliha/Desktop/conveyor-simulator/include/SorterGate.h
 
+
+/Users/maliha/Desktop/conveyor-simulator/include/ItemType.h:
+
+/Users/maliha/Desktop/conveyor-simulator/include/ConfigLoader.h:
 
 /Users/maliha/Desktop/conveyor-simulator/tests/MachineControllerTests.cpp:
 

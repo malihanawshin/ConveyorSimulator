@@ -1,2 +1,2 @@
-/usr/bin/ar qc libconveyor_core.a CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o
+/usr/bin/ar qc libconveyor_core.a CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o
 /usr/bin/ranlib libconveyor_core.a

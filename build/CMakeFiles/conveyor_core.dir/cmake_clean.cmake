@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o"
   "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d"
+  "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o"
+  "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d"
   "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o"
   "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o.d"
   "CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o"

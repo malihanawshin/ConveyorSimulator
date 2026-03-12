@@ -33,3 +33,10 @@
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/googletest/CMakeFiles/install.dir
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/test.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/list_install_components.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/install.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/install/local.dir
+/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-build/CMakeFiles/install/strip.dir

@@ -1,0 +1,7 @@
+{
+  "routing": {
+    "TypeA": "LEFT",
+    "TypeB": "RIGHT"
+  },
+  "jam_threshold_ticks": 3
+}

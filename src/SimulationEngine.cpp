@@ -4,7 +4,8 @@
 #include <iostream>
 #include <thread>
 
-SimulationEngine::SimulationEngine() = default;
+SimulationEngine::SimulationEngine(const std::string& configPath)
+    : config(ConfigLoader::loadFromFile(configPath)) {}
 
 void SimulationEngine::run() {
     std::cout << "=== Conveyor Sorting Cell Simulation ===\n\n";
@@ -16,9 +17,13 @@ void SimulationEngine::run() {
     printStatus();
     sleepMs(400);
 
-    std::cout << "\n--- Normal item step ---\n";
-    //processNormalItemStep();
+    std::cout << "\n--- Normal item step (TypeA) ---\n";
     processNormalItemStep(ItemType::TypeA);
+    printStatus();
+    sleepMs(400);
+
+    std::cout << "\n--- Normal item step (TypeB) ---\n";
+    processNormalItemStep(ItemType::TypeB);
     printStatus();
     sleepMs(400);
 
@@ -57,18 +62,9 @@ void SimulationEngine::processNormalItemStep(ItemType itemType) {
         entrySensor.tick();
     }
 
-    switch (itemType) {
-        case ItemType::TypeA:
-            gate.setRouteLeft();
-            break;
-        case ItemType::TypeB:
-            gate.setRouteRight();
-            break;
-    }
-
+    applyRouting(itemType);
     entrySensor.clear();
 }
-
 
 void SimulationEngine::processJamFaultStep() {
     if (controller.getState() != MachineState::Running) {
@@ -77,11 +73,11 @@ void SimulationEngine::processJamFaultStep() {
 
     entrySensor.detectItem();
 
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < config.jamThresholdTicks + 2; ++i) {
         entrySensor.tick();
     }
 
-    if (entrySensor.getBlockedTicks() > 3) {
+    if (entrySensor.getBlockedTicks() > config.jamThresholdTicks) {
         alarms.raiseAlarm("Jam detected: sensor blocked too long");
         controller.triggerFault(alarms.getLatestAlarm());
         conveyor.stop();
@@ -116,6 +112,18 @@ std::vector<std::string> SimulationEngine::buildStatusLines() const {
         "Sensor blocked ticks: " + std::to_string(snapshot.sensorBlockedTicks),
         "Latest alarm: " + snapshot.latestAlarm
     };
+}
+
+void SimulationEngine::applyRouting(ItemType itemType) {
+    std::string route = config.routingRules[itemType];
+
+    if (route == "LEFT") {
+        gate.setRouteLeft();
+    } else if (route == "RIGHT") {
+        gate.setRouteRight();
+    } else {
+        throw std::runtime_error("Invalid route in config");
+    }
 }
 
 void SimulationEngine::printStatus() const {
