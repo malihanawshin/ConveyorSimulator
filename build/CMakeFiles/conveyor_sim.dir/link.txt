@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/conveyor_sim.dir/src/main.cpp.o -o conveyor_sim  libconveyor_core.a
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/conveyor_sim.dir/conveyor_sim_autogen/mocs_compilation.cpp.o CMakeFiles/conveyor_sim.dir/src/main.cpp.o -o conveyor_sim  libconveyor_core.a

@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(ConveyorSimulator VERSION 0.1 LANGUAGES CXX)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -19,6 +22,9 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest json)
 
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+qt_standard_project_setup()
+
 enable_testing()
 
 add_library(conveyor_core
@@ -32,7 +38,6 @@ add_library(conveyor_core
 )
 
 target_include_directories(conveyor_core PUBLIC include)
-
 target_link_libraries(conveyor_core PUBLIC nlohmann_json::nlohmann_json)
 
 add_executable(conveyor_sim
@@ -41,12 +46,36 @@ add_executable(conveyor_sim
 
 target_link_libraries(conveyor_sim PRIVATE conveyor_core)
 
+add_executable(conveyor_gui
+    src/guiMain.cpp
+    src/MainWindow.cpp
+    include/MainWindow.h
+)
+
+target_include_directories(conveyor_gui PRIVATE include)
+
+target_link_libraries(conveyor_gui
+    PRIVATE
+    conveyor_core
+    Qt6::Widgets
+)
+
+set_target_properties(conveyor_gui PROPERTIES
+    WIN32_EXECUTABLE ON
+    MACOSX_BUNDLE ON
+)
+
 add_custom_command(TARGET conveyor_sim POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
     ${CMAKE_SOURCE_DIR}/config
     $<TARGET_FILE_DIR:conveyor_sim>/config
 )
 
+add_custom_command(TARGET conveyor_gui POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/config
+    $<TARGET_FILE_DIR:conveyor_gui>/config
+)
 
 add_executable(conveyor_tests
     tests/MachineControllerTests.cpp
@@ -67,7 +96,6 @@ add_custom_command(TARGET conveyor_tests POST_BUILD
     ${CMAKE_SOURCE_DIR}/config
     $<TARGET_FILE_DIR:conveyor_tests>/config
 )
-
 
 include(GoogleTest)
 gtest_discover_tests(conveyor_tests)

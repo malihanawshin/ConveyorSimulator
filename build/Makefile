@@ -198,6 +198,19 @@ conveyor_sim/fast:
 .PHONY : conveyor_sim/fast
 
 #=============================================================================
+# Target rules for targets named conveyor_gui
+
+# Build rule for target.
+conveyor_gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_gui
+.PHONY : conveyor_gui
+
+# fast build rule for target.
+conveyor_gui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/build
+.PHONY : conveyor_gui/fast
+
+#=============================================================================
 # Target rules for targets named conveyor_tests
 
 # Build rule for target.
@@ -209,6 +222,110 @@ conveyor_tests: cmake_check_build_system
 conveyor_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/build
 .PHONY : conveyor_tests/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_core_autogen_timestamp_deps
+
+# Build rule for target.
+conveyor_core_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_core_autogen_timestamp_deps
+.PHONY : conveyor_core_autogen_timestamp_deps
+
+# fast build rule for target.
+conveyor_core_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core_autogen_timestamp_deps.dir/build.make CMakeFiles/conveyor_core_autogen_timestamp_deps.dir/build
+.PHONY : conveyor_core_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_core_autogen
+
+# Build rule for target.
+conveyor_core_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_core_autogen
+.PHONY : conveyor_core_autogen
+
+# fast build rule for target.
+conveyor_core_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core_autogen.dir/build.make CMakeFiles/conveyor_core_autogen.dir/build
+.PHONY : conveyor_core_autogen/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_sim_autogen_timestamp_deps
+
+# Build rule for target.
+conveyor_sim_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_sim_autogen_timestamp_deps
+.PHONY : conveyor_sim_autogen_timestamp_deps
+
+# fast build rule for target.
+conveyor_sim_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim_autogen_timestamp_deps.dir/build.make CMakeFiles/conveyor_sim_autogen_timestamp_deps.dir/build
+.PHONY : conveyor_sim_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_sim_autogen
+
+# Build rule for target.
+conveyor_sim_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_sim_autogen
+.PHONY : conveyor_sim_autogen
+
+# fast build rule for target.
+conveyor_sim_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim_autogen.dir/build.make CMakeFiles/conveyor_sim_autogen.dir/build
+.PHONY : conveyor_sim_autogen/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_gui_autogen_timestamp_deps
+
+# Build rule for target.
+conveyor_gui_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_gui_autogen_timestamp_deps
+.PHONY : conveyor_gui_autogen_timestamp_deps
+
+# fast build rule for target.
+conveyor_gui_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui_autogen_timestamp_deps.dir/build.make CMakeFiles/conveyor_gui_autogen_timestamp_deps.dir/build
+.PHONY : conveyor_gui_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_gui_autogen
+
+# Build rule for target.
+conveyor_gui_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_gui_autogen
+.PHONY : conveyor_gui_autogen
+
+# fast build rule for target.
+conveyor_gui_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui_autogen.dir/build.make CMakeFiles/conveyor_gui_autogen.dir/build
+.PHONY : conveyor_gui_autogen/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_tests_autogen_timestamp_deps
+
+# Build rule for target.
+conveyor_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_tests_autogen_timestamp_deps
+.PHONY : conveyor_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+conveyor_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/conveyor_tests_autogen_timestamp_deps.dir/build
+.PHONY : conveyor_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named conveyor_tests_autogen
+
+# Build rule for target.
+conveyor_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 conveyor_tests_autogen
+.PHONY : conveyor_tests_autogen
+
+# fast build rule for target.
+conveyor_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests_autogen.dir/build.make CMakeFiles/conveyor_tests_autogen.dir/build
+.PHONY : conveyor_tests_autogen/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -261,6 +378,102 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+conveyor_core_autogen/mocs_compilation.o: conveyor_core_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_core_autogen/mocs_compilation.o
+
+# target to build an object file
+conveyor_core_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_core_autogen/mocs_compilation.cpp.o
+
+conveyor_core_autogen/mocs_compilation.i: conveyor_core_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_core_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+conveyor_core_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_core_autogen/mocs_compilation.cpp.i
+
+conveyor_core_autogen/mocs_compilation.s: conveyor_core_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_core_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+conveyor_core_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_core_autogen/mocs_compilation.cpp.s
+
+conveyor_gui_autogen/mocs_compilation.o: conveyor_gui_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_gui_autogen/mocs_compilation.o
+
+# target to build an object file
+conveyor_gui_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_gui_autogen/mocs_compilation.cpp.o
+
+conveyor_gui_autogen/mocs_compilation.i: conveyor_gui_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_gui_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+conveyor_gui_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_gui_autogen/mocs_compilation.cpp.i
+
+conveyor_gui_autogen/mocs_compilation.s: conveyor_gui_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_gui_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+conveyor_gui_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_gui_autogen/mocs_compilation.cpp.s
+
+conveyor_sim_autogen/mocs_compilation.o: conveyor_sim_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_sim_autogen/mocs_compilation.o
+
+# target to build an object file
+conveyor_sim_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/conveyor_sim_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_sim_autogen/mocs_compilation.cpp.o
+
+conveyor_sim_autogen/mocs_compilation.i: conveyor_sim_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_sim_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+conveyor_sim_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/conveyor_sim_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_sim_autogen/mocs_compilation.cpp.i
+
+conveyor_sim_autogen/mocs_compilation.s: conveyor_sim_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_sim_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+conveyor_sim_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_sim.dir/build.make CMakeFiles/conveyor_sim.dir/conveyor_sim_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_sim_autogen/mocs_compilation.cpp.s
+
+conveyor_tests_autogen/mocs_compilation.o: conveyor_tests_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+conveyor_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/conveyor_tests_autogen/mocs_compilation.cpp.o
+.PHONY : conveyor_tests_autogen/mocs_compilation.cpp.o
+
+conveyor_tests_autogen/mocs_compilation.i: conveyor_tests_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+conveyor_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/conveyor_tests_autogen/mocs_compilation.cpp.i
+.PHONY : conveyor_tests_autogen/mocs_compilation.cpp.i
+
+conveyor_tests_autogen/mocs_compilation.s: conveyor_tests_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+conveyor_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_tests.dir/build.make CMakeFiles/conveyor_tests.dir/conveyor_tests_autogen/mocs_compilation.cpp.s
+.PHONY : conveyor_tests_autogen/mocs_compilation.cpp.s
 
 src/AlarmManager.o: src/AlarmManager.cpp.o
 .PHONY : src/AlarmManager.o
@@ -358,6 +571,30 @@ src/MachineController.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s
 .PHONY : src/MachineController.cpp.s
 
+src/MainWindow.o: src/MainWindow.cpp.o
+.PHONY : src/MainWindow.o
+
+# target to build an object file
+src/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
+
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
+
+# target to preprocess a source file
+src/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
+
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
+
+# target to generate assembly for a file
+src/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
+
 src/Sensor.o: src/Sensor.cpp.o
 .PHONY : src/Sensor.o
 
@@ -429,6 +666,30 @@ src/SorterGate.s: src/SorterGate.cpp.s
 src/SorterGate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_core.dir/build.make CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s
 .PHONY : src/SorterGate.cpp.s
+
+src/guiMain.o: src/guiMain.cpp.o
+.PHONY : src/guiMain.o
+
+# target to build an object file
+src/guiMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o
+.PHONY : src/guiMain.cpp.o
+
+src/guiMain.i: src/guiMain.cpp.i
+.PHONY : src/guiMain.i
+
+# target to preprocess a source file
+src/guiMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.i
+.PHONY : src/guiMain.cpp.i
+
+src/guiMain.s: src/guiMain.cpp.s
+.PHONY : src/guiMain.s
+
+# target to generate assembly for a file
+src/guiMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/conveyor_gui.dir/build.make CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.s
+.PHONY : src/guiMain.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -587,13 +848,34 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... conveyor_core_autogen"
+	@echo "... conveyor_core_autogen_timestamp_deps"
+	@echo "... conveyor_gui_autogen"
+	@echo "... conveyor_gui_autogen_timestamp_deps"
+	@echo "... conveyor_sim_autogen"
+	@echo "... conveyor_sim_autogen_timestamp_deps"
+	@echo "... conveyor_tests_autogen"
+	@echo "... conveyor_tests_autogen_timestamp_deps"
 	@echo "... conveyor_core"
+	@echo "... conveyor_gui"
 	@echo "... conveyor_sim"
 	@echo "... conveyor_tests"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... conveyor_core_autogen/mocs_compilation.o"
+	@echo "... conveyor_core_autogen/mocs_compilation.i"
+	@echo "... conveyor_core_autogen/mocs_compilation.s"
+	@echo "... conveyor_gui_autogen/mocs_compilation.o"
+	@echo "... conveyor_gui_autogen/mocs_compilation.i"
+	@echo "... conveyor_gui_autogen/mocs_compilation.s"
+	@echo "... conveyor_sim_autogen/mocs_compilation.o"
+	@echo "... conveyor_sim_autogen/mocs_compilation.i"
+	@echo "... conveyor_sim_autogen/mocs_compilation.s"
+	@echo "... conveyor_tests_autogen/mocs_compilation.o"
+	@echo "... conveyor_tests_autogen/mocs_compilation.i"
+	@echo "... conveyor_tests_autogen/mocs_compilation.s"
 	@echo "... src/AlarmManager.o"
 	@echo "... src/AlarmManager.i"
 	@echo "... src/AlarmManager.s"
@@ -606,6 +888,9 @@ help:
 	@echo "... src/MachineController.o"
 	@echo "... src/MachineController.i"
 	@echo "... src/MachineController.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
 	@echo "... src/Sensor.o"
 	@echo "... src/Sensor.i"
 	@echo "... src/Sensor.s"
@@ -615,6 +900,9 @@ help:
 	@echo "... src/SorterGate.o"
 	@echo "... src/SorterGate.i"
 	@echo "... src/SorterGate.s"
+	@echo "... src/guiMain.o"
+	@echo "... src/guiMain.i"
+	@echo "... src/guiMain.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

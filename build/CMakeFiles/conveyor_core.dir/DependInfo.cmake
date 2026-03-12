@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "conveyor_core_autogen/timestamp" "custom" "conveyor_core_autogen/deps"
+  "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp" "CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp" "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp" "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d"
   "/Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp" "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o" "gcc" "CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o.d"

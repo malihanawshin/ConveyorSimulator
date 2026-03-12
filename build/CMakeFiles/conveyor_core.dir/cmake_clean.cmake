@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/conveyor_core_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/conveyor_core_autogen.dir/ParseCache.txt"
+  "conveyor_core_autogen"
+  "CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o"
   "CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d"
   "CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o"
@@ -13,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o.d"
   "CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o"
   "CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o.d"
+  "conveyor_core_autogen/mocs_compilation.cpp"
+  "conveyor_core_autogen/timestamp"
   "libconveyor_core.a"
   "libconveyor_core.pdb"
 )

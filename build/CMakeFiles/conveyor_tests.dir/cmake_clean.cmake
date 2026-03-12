@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/conveyor_tests_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/conveyor_tests_autogen.dir/ParseCache.txt"
+  "conveyor_tests_autogen"
+  "CMakeFiles/conveyor_tests.dir/conveyor_tests_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/conveyor_tests.dir/conveyor_tests_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.o"
   "CMakeFiles/conveyor_tests.dir/tests/AlarmManagerTests.cpp.o.d"
   "CMakeFiles/conveyor_tests.dir/tests/ConveyorSystemTests.cpp.o"
@@ -12,6 +17,8 @@ file(REMOVE_RECURSE
   "conveyor_tests"
   "conveyor_tests.pdb"
   "conveyor_tests[1]_tests.cmake"
+  "conveyor_tests_autogen/mocs_compilation.cpp"
+  "conveyor_tests_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

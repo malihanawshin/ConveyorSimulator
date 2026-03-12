@@ -1,5 +1,6 @@
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_core.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_sim.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_gui.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_tests.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/test.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/edit_cache.dir
@@ -8,6 +9,14 @@
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/install.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/install/local.dir
 /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/install/strip.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_core_autogen_timestamp_deps.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_core_autogen.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_sim_autogen_timestamp_deps.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_sim_autogen.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_gui_autogen_timestamp_deps.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_gui_autogen.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_tests_autogen_timestamp_deps.dir
+/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_tests_autogen.dir
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/CMakeFiles/test.dir
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/CMakeFiles/edit_cache.dir
 /Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-build/CMakeFiles/rebuild_cache.dir
