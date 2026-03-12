@@ -184,6 +184,7 @@ conveyor_tests: CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o
 conveyor_tests: CMakeFiles/conveyor_tests.dir/build.make
 conveyor_tests: libconveyor_core.a
 conveyor_tests: lib/libgtest_main.a
+conveyor_tests: /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/QtCore
 conveyor_tests: lib/libgtest.a
 conveyor_tests: CMakeFiles/conveyor_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable conveyor_tests"

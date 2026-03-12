@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/include -I/Users/maliha/Desktop/conveyor-simulator/include -I/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-src/include -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/maliha/Qt/6.10.2/macos/lib -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers -isystem /Users/maliha/Qt/6.10.2/macos/mkspecs/macx-clang -isystem /Users/maliha/Qt/6.10.2/macos/include -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers
+CXX_INCLUDES = -I/Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/include -I/Users/maliha/Desktop/conveyor-simulator/include -I/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-src/include -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers -iframework /Users/maliha/Qt/6.10.2/macos/lib -isystem /Users/maliha/Qt/6.10.2/macos/mkspecs/macx-clang -isystem /Users/maliha/Qt/6.10.2/macos/include -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

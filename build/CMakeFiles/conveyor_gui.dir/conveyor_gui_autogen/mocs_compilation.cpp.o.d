@@ -978,11 +978,30 @@ CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o: \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QTableWidget \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/SimulationEngine.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/AlarmManager.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/ConfigLoader.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/ItemType.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/EventLogEntry.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/6YEA5652QU/../../../include/Sensor.h \

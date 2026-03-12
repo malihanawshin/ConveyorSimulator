@@ -22,7 +22,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(googletest json)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Core)
 qt_standard_project_setup()
 
 enable_testing()
@@ -38,7 +38,12 @@ add_library(conveyor_core
 )
 
 target_include_directories(conveyor_core PUBLIC include)
-target_link_libraries(conveyor_core PUBLIC nlohmann_json::nlohmann_json)
+target_link_libraries(conveyor_core
+    PUBLIC
+    nlohmann_json::nlohmann_json
+    Qt6::Core
+)
+
 
 add_executable(conveyor_sim
     src/main.cpp

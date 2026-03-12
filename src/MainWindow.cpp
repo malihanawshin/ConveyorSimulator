@@ -1,5 +1,6 @@
 #include "MainWindow.h"
 
+#include <QHeaderView>
 #include <QVBoxLayout>
 #include <QWidget>
 
@@ -26,6 +27,15 @@ void MainWindow::setupUi() {
     jamButton = new QPushButton("Simulate Jam Fault", this);
     resetButton = new QPushButton("Reset", this);
 
+    historyTable = new QTableWidget(this);
+    historyTable->setColumnCount(3);
+    historyTable->setHorizontalHeaderLabels({"Timestamp", "Type", "Message"});
+    historyTable->horizontalHeader()->setStretchLastSection(true);
+    historyTable->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+    historyTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    historyTable->setSelectionBehavior(QAbstractItemView::SelectRows);
+    historyTable->setSelectionMode(QAbstractItemView::SingleSelection);
+
     layout->addWidget(machineStateLabel);
     layout->addWidget(conveyorLabel);
     layout->addWidget(gateLabel);
@@ -39,6 +49,8 @@ void MainWindow::setupUi() {
     layout->addWidget(jamButton);
     layout->addWidget(resetButton);
 
+    layout->addWidget(historyTable);
+
     connect(startButton, &QPushButton::clicked, this, &MainWindow::onStartClicked);
     connect(typeAButton, &QPushButton::clicked, this, &MainWindow::onTypeAClicked);
     connect(typeBButton, &QPushButton::clicked, this, &MainWindow::onTypeBClicked);
@@ -48,7 +60,7 @@ void MainWindow::setupUi() {
     central->setLayout(layout);
     setCentralWidget(central);
     setWindowTitle("Conveyor Sorting Cell HMI");
-    resize(420, 320);
+    resize(800, 500);
 }
 
 void MainWindow::refreshUi() {
@@ -60,6 +72,24 @@ void MainWindow::refreshUi() {
     sensorLabel->setText(QString("Sensor Blocked: %1").arg(snapshot.sensorBlocked ? "YES" : "NO"));
     blockedTicksLabel->setText(QString("Sensor Blocked Ticks: %1").arg(snapshot.sensorBlockedTicks));
     alarmLabel->setText(QString("Latest Alarm: %1").arg(QString::fromStdString(snapshot.latestAlarm)));
+
+    refreshHistoryTable();
+}
+
+void MainWindow::refreshHistoryTable() {
+    const auto& history = engine.getEventHistory();
+
+    historyTable->setRowCount(0);
+
+    for (int i = 0; i < static_cast<int>(history.size()); ++i) {
+        historyTable->insertRow(i);
+
+        historyTable->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(history[i].timestamp)));
+        historyTable->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(history[i].type)));
+        historyTable->setItem(i, 2, new QTableWidgetItem(QString::fromStdString(history[i].message)));
+    }
+
+    historyTable->scrollToBottom();
 }
 
 void MainWindow::onStartClicked() {

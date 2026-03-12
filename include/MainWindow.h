@@ -3,6 +3,7 @@
 #include <QLabel>
 #include <QMainWindow>
 #include <QPushButton>
+#include <QTableWidget>
 
 #include "SimulationEngine.h"
 
@@ -35,6 +36,9 @@ private:
     QPushButton* jamButton;
     QPushButton* resetButton;
 
+    QTableWidget* historyTable;
+
     void setupUi();
     void refreshUi();
+    void refreshHistoryTable();
 };

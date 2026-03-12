@@ -28,6 +28,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -45,8 +47,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/Users/maliha/Qt/6.10.2/macos/bin/uname"
       - "/Users/maliha/Qt/6.10.2/macos/sbin/uname"
@@ -56,6 +56,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/uname"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/uname"
       - "/opt/anaconda3/condabin/uname"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/Users/maliha/.local/bin/uname"
       - "/opt/local/bin/uname"
       - "/opt/local/sbin/uname"
@@ -75,6 +77,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -130,6 +134,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -147,8 +153,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/Users/maliha/Qt/6.10.2/macos/bin/gmake"
       - "/Users/maliha/Qt/6.10.2/macos/sbin/gmake"
@@ -158,6 +162,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/gmake"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/gmake"
       - "/opt/anaconda3/condabin/gmake"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
       - "/Users/maliha/.local/bin/gmake"
       - "/opt/local/bin/gmake"
       - "/opt/local/sbin/gmake"
@@ -175,8 +181,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
       - "/Library/Apple/usr/bin/gmake"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
       - "/Users/maliha/Qt/6.10.2/macos/bin/make"
       - "/Users/maliha/Qt/6.10.2/macos/sbin/make"
       - "/Users/maliha/Qt/6.10.2/macos/make"
@@ -185,6 +189,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/make"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/make"
       - "/opt/anaconda3/condabin/make"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
       - "/Users/maliha/.local/bin/make"
       - "/opt/local/bin/make"
       - "/opt/local/sbin/make"
@@ -204,6 +210,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -257,6 +265,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -274,8 +284,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/Users/maliha/Qt/6.10.2/macos/bin/c++"
       - "/Users/maliha/Qt/6.10.2/macos/sbin/c++"
@@ -285,6 +293,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/c++"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/c++"
       - "/opt/anaconda3/condabin/c++"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
       - "/Users/maliha/.local/bin/c++"
       - "/opt/local/bin/c++"
       - "/opt/local/sbin/c++"
@@ -304,6 +314,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -357,6 +369,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -465,6 +479,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -481,8 +497,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/ar"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -493,6 +507,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -538,6 +554,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -554,8 +572,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/ranlib"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -566,6 +582,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -611,6 +629,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -627,8 +647,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/strip"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -639,6 +657,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -684,6 +704,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -700,8 +722,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/ld"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -712,6 +732,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -757,6 +779,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -773,8 +797,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/nm"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -785,6 +807,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -830,6 +854,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -846,8 +872,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     found: "/usr/bin/objdump"
     search_context:
       CMAKE_PREFIX_PATH:
@@ -858,6 +882,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -903,6 +929,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -919,8 +947,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/usr/bin/objcopy"
       - "/usr/local/mongodb/bin/objcopy"
@@ -928,6 +954,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/objcopy"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/objcopy"
       - "/opt/anaconda3/condabin/objcopy"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
       - "/Users/maliha/.local/bin/objcopy"
       - "/opt/local/bin/objcopy"
       - "/opt/local/sbin/objcopy"
@@ -944,8 +972,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
       - "/Library/Apple/usr/bin/objcopy"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -956,6 +982,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1001,6 +1029,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1017,8 +1047,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/usr/bin/readelf"
       - "/usr/local/mongodb/bin/readelf"
@@ -1026,6 +1054,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/readelf"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/readelf"
       - "/opt/anaconda3/condabin/readelf"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
       - "/Users/maliha/.local/bin/readelf"
       - "/opt/local/bin/readelf"
       - "/opt/local/sbin/readelf"
@@ -1042,8 +1072,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
       - "/Library/Apple/usr/bin/readelf"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -1054,6 +1082,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1099,6 +1129,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1115,8 +1147,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/usr/local/mongodb/bin/dlltool"
@@ -1124,6 +1154,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/dlltool"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/dlltool"
       - "/opt/anaconda3/condabin/dlltool"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/Users/maliha/.local/bin/dlltool"
       - "/opt/local/bin/dlltool"
       - "/opt/local/sbin/dlltool"
@@ -1140,8 +1172,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -1152,6 +1182,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1197,6 +1229,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1213,8 +1247,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/usr/bin/addr2line"
       - "/usr/local/mongodb/bin/addr2line"
@@ -1222,6 +1254,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/addr2line"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/addr2line"
       - "/opt/anaconda3/condabin/addr2line"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
       - "/Users/maliha/.local/bin/addr2line"
       - "/opt/local/bin/addr2line"
       - "/opt/local/sbin/addr2line"
@@ -1238,8 +1272,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
       - "/Library/Apple/usr/bin/addr2line"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -1250,6 +1282,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1295,6 +1329,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1311,8 +1347,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/usr/local/mongodb/bin/tapi"
@@ -1320,6 +1354,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/tapi"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/tapi"
       - "/opt/anaconda3/condabin/tapi"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/Users/maliha/.local/bin/tapi"
       - "/opt/local/bin/tapi"
       - "/opt/local/sbin/tapi"
@@ -1336,8 +1372,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/Library/Apple/usr/bin/tapi"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -1348,6 +1382,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1395,6 +1431,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -1412,8 +1450,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
     searched_directories:
       - "/Users/maliha/Qt/6.10.2/macos/bin/install_name_tool"
       - "/Users/maliha/Qt/6.10.2/macos/sbin/install_name_tool"
@@ -1423,6 +1459,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/install_name_tool"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/install_name_tool"
       - "/opt/anaconda3/condabin/install_name_tool"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
       - "/Users/maliha/.local/bin/install_name_tool"
       - "/opt/local/bin/install_name_tool"
       - "/opt/local/sbin/install_name_tool"
@@ -1442,6 +1480,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1471,8 +1511,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD"
-      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD"
+      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY"
+      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1485,19 +1525,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD'
+        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f1a9/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f1a9.dir/build.make CMakeFiles/cmTC_8f1a9.dir/build
-        Building CXX object CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22a71/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_22a71.dir/build.make CMakeFiles/cmTC_22a71.dir/build
+        Building CXX object CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1511,13 +1551,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_8f1a9
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1a9.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_22a71
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a71.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_8f1a9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_22a71 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1530,7 +1570,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f1a9
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_22a71
         
       exitCode: 0
   -
@@ -1576,19 +1616,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD']
+        ignore line: [Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f1a9/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f1a9.dir/build.make CMakeFiles/cmTC_8f1a9.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22a71/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_22a71.dir/build.make CMakeFiles/cmTC_22a71.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-S3lHrD -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-WyrvrY -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1602,13 +1642,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_8f1a9]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1a9.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_22a71]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a71.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_8f1a9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_22a71 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1625,12 +1665,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8f1a9] ==> ignore
+          arg [cmTC_22a71] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_8f1a9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_22a71.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1702,6 +1742,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1774,6 +1816,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -1891,8 +1935,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc"
-      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc"
+      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj"
+      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1904,18 +1948,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc'
+        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_751c7/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_751c7.dir/build.make CMakeFiles/cmTC_751c7.dir/build
-        Building C object CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e99fd/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e99fd.dir/build.make CMakeFiles/cmTC_e99fd.dir/build
+        Building C object CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1928,13 +1972,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_751c7
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_751c7.dir/link.txt --verbose=1
+        Linking C executable cmTC_e99fd
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e99fd.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.4.2)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_751c7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e99fd -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 10:14:01 Jan  9 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1947,7 +1991,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -o cmTC_751c7
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -o cmTC_e99fd
         
       exitCode: 0
   -
@@ -1991,18 +2035,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc']
+        ignore line: [Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_751c7/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_751c7.dir/build.make CMakeFiles/cmTC_751c7.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e99fd/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e99fd.dir/build.make CMakeFiles/cmTC_e99fd.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-aPVdOc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-az9wtj -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.4.2) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -2015,13 +2059,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_751c7]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_751c7.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_e99fd]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e99fd.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.4.2)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_751c7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e99fd -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -2038,12 +2082,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_751c7] ==> ignore
+          arg [cmTC_e99fd] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_751c7.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_e99fd.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
@@ -2089,8 +2133,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-7kSCEL"
-      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-7kSCEL"
+      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-Wfz2ly"
+      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-Wfz2ly"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2102,15 +2146,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-7kSCEL'
+        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-Wfz2ly'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_661e9/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_661e9.dir/build.make CMakeFiles/cmTC_661e9.dir/build
-        Building C object CMakeFiles/cmTC_661e9.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_661e9.dir/src.c.o -MF CMakeFiles/cmTC_661e9.dir/src.c.o.d -o CMakeFiles/cmTC_661e9.dir/src.c.o -c /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-7kSCEL/src.c
-        Linking C executable cmTC_661e9
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_661e9.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_661e9.dir/src.c.o -o cmTC_661e9
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5990e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5990e.dir/build.make CMakeFiles/cmTC_5990e.dir/build
+        Building C object CMakeFiles/cmTC_5990e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_5990e.dir/src.c.o -MF CMakeFiles/cmTC_5990e.dir/src.c.o.d -o CMakeFiles/cmTC_5990e.dir/src.c.o -c /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-Wfz2ly/src.c
+        Linking C executable cmTC_5990e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5990e.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5990e.dir/src.c.o -o cmTC_5990e
         
       exitCode: 0
   -
@@ -2189,6 +2233,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2308,6 +2354,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2424,6 +2472,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2488,8 +2538,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-CFHvDU"
-      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-CFHvDU"
+      source: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-qso24N"
+      binary: "/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-qso24N"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2502,15 +2552,15 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-CFHvDU'
+        Change Dir: '/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-qso24N'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39d17/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_39d17.dir/build.make CMakeFiles/cmTC_39d17.dir/build
-        Building CXX object CMakeFiles/cmTC_39d17.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_39d17.dir/src.cxx.o -MF CMakeFiles/cmTC_39d17.dir/src.cxx.o.d -o CMakeFiles/cmTC_39d17.dir/src.cxx.o -c /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-CFHvDU/src.cxx
-        Linking CXX executable cmTC_39d17
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39d17.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_39d17.dir/src.cxx.o -o cmTC_39d17
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f58a8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f58a8.dir/build.make CMakeFiles/cmTC_f58a8.dir/build
+        Building CXX object CMakeFiles/cmTC_f58a8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_f58a8.dir/src.cxx.o -MF CMakeFiles/cmTC_f58a8.dir/src.cxx.o.d -o CMakeFiles/cmTC_f58a8.dir/src.cxx.o -c /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/CMakeScratch/TryCompile-qso24N/src.cxx
+        Linking CXX executable cmTC_f58a8
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f58a8.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f58a8.dir/src.cxx.o -o cmTC_f58a8
         
       exitCode: 0
   -
@@ -2549,6 +2599,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -2566,8 +2618,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
@@ -2611,6 +2661,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2740,6 +2792,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2822,6 +2876,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -2836,8 +2892,6 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -2864,6 +2918,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -2948,6 +3004,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -2962,8 +3020,6 @@ events:
       - "/usr/sbin/"
       - "/sbin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -2990,6 +3046,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3074,6 +3132,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -3091,8 +3151,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -3130,6 +3188,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/OpenGL.framework/Headers/gl.h"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/anaconda3/condabin/OpenGL.framework/Headers/gl.h"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/gl.h"
       - "/Users/maliha/.local/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/local/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/local/sbin/OpenGL.framework/Headers/gl.h"
@@ -3147,8 +3207,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/OpenGL.framework/Headers/gl.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/OpenGL.framework/Headers/gl.h"
       - "/Library/Apple/usr/bin/OpenGL.framework/Headers/gl.h"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/gl.h"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/gl.h"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/gl.h"
@@ -3182,6 +3240,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3266,6 +3326,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/"
       - "/opt/anaconda3/condabin/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Users/maliha/.local/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
@@ -3283,8 +3345,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -3322,6 +3382,8 @@ events:
       - "/Users/maliha/.local/share/mise/shims/OpenGL.framework/Headers/glu.h"
       - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/anaconda3/condabin/OpenGL.framework/Headers/glu.h"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
+      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/glu.h"
       - "/Users/maliha/.local/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/local/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/local/sbin/OpenGL.framework/Headers/glu.h"
@@ -3339,8 +3401,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/OpenGL.framework/Headers/glu.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/Apple/usr/bin/OpenGL.framework/Headers/glu.h"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
-      - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/glu.h"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -3374,6 +3434,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3502,6 +3564,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3641,6 +3705,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3775,6 +3841,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3901,6 +3969,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
@@ -3952,6 +4022,10 @@ events:
     components:
       -
         name: "Widgets"
+        required: true
+        found: false
+      -
+        name: "Core"
         required: true
         found: false
     configs:
@@ -5685,6 +5759,8 @@ events:
         - "/Users/maliha/.local/share/mise/shims"
         - "/Users/maliha/.local/share/mise/installs/ruby/3.3.10/bin"
         - "/opt/anaconda3/condabin"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/maliha/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/Users/maliha/.local/bin"
         - "/opt/local/bin"
         - "/opt/local/sbin"

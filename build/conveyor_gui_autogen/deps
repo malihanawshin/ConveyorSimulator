@@ -731,6 +731,7 @@ conveyor_gui_autogen/timestamp: \
 	/Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
 	/Users/maliha/Desktop/conveyor-simulator/include/ConfigLoader.h \
 	/Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+	/Users/maliha/Desktop/conveyor-simulator/include/EventLogEntry.h \
 	/Users/maliha/Desktop/conveyor-simulator/include/ItemType.h \
 	/Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
 	/Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
@@ -748,6 +749,7 @@ conveyor_gui_autogen/timestamp: \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q23type_traits.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qalloc.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
@@ -792,11 +794,13 @@ conveyor_gui_autogen/timestamp: \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
@@ -817,6 +821,7 @@ conveyor_gui_autogen/timestamp: \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -895,16 +900,30 @@ conveyor_gui_autogen/timestamp: \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QTableWidget \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyle.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qstyleoption.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtableview.h \
+	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtablewidget.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
 	/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

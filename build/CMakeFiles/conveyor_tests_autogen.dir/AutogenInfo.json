@@ -393,7 +393,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/maliha/Desktop/conveyor-simulator/build/conveyor_tests_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -405,6 +405,10 @@
 	[
 		"/Users/maliha/Desktop/conveyor-simulator/include",
 		"/Users/maliha/Desktop/conveyor-simulator/build/_deps/json-src/include",
+		"/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers",
+		"/Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework",
+		"/Users/maliha/Qt/6.10.2/macos/mkspecs/macx-clang",
+		"/Users/maliha/Qt/6.10.2/macos/include",
 		"/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest/include",
 		"/Users/maliha/Desktop/conveyor-simulator/build/_deps/googletest-src/googletest",
 		"/usr/local/include",

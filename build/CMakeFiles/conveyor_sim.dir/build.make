@@ -119,6 +119,7 @@ conveyor_sim: CMakeFiles/conveyor_sim.dir/conveyor_sim_autogen/mocs_compilation.
 conveyor_sim: CMakeFiles/conveyor_sim.dir/src/main.cpp.o
 conveyor_sim: CMakeFiles/conveyor_sim.dir/build.make
 conveyor_sim: libconveyor_core.a
+conveyor_sim: /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/QtCore
 conveyor_sim: CMakeFiles/conveyor_sim.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable conveyor_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/conveyor_sim.dir/link.txt --verbose=$(VERBOSE)

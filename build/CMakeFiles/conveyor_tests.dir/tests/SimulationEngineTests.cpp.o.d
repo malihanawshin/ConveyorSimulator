@@ -858,6 +858,7 @@ CMakeFiles/conveyor_tests.dir/tests/SimulationEngineTests.cpp.o: \
   /Users/maliha/Desktop/conveyor-simulator/include/ConfigLoader.h \
   /Users/maliha/Desktop/conveyor-simulator/include/ItemType.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/EventLogEntry.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Sensor.h \

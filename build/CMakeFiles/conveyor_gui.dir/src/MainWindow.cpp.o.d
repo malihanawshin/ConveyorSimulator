@@ -977,15 +977,36 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QTableWidget \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtableview.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvalidator.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qslider.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qstyle.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qrubberband.h \
   /Users/maliha/Desktop/conveyor-simulator/include/SimulationEngine.h \
   /Users/maliha/Desktop/conveyor-simulator/include/AlarmManager.h \
   /Users/maliha/Desktop/conveyor-simulator/include/ConfigLoader.h \
   /Users/maliha/Desktop/conveyor-simulator/include/ItemType.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/EventLogEntry.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Sensor.h \
   /Users/maliha/Desktop/conveyor-simulator/include/SorterGate.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHeaderView \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qheaderview.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \

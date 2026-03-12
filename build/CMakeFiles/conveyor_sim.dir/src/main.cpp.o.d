@@ -780,6 +780,7 @@ CMakeFiles/conveyor_sim.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Conveyor.h \
+  /Users/maliha/Desktop/conveyor-simulator/include/EventLogEntry.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineController.h \
   /Users/maliha/Desktop/conveyor-simulator/include/MachineState.h \
   /Users/maliha/Desktop/conveyor-simulator/include/Sensor.h \
