@@ -19,6 +19,7 @@ private slots:
     void onTypeBClicked();
     void onJamClicked();
     void onResetClicked();
+    
 
 private:
     SimulationEngine engine;
@@ -41,4 +42,6 @@ private:
     void setupUi();
     void refreshUi();
     void refreshHistoryTable();
+    void updateMachineStateStyle(const std::string& machineState);
+
 };

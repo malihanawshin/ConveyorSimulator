@@ -27,6 +27,9 @@ void MainWindow::setupUi() {
     jamButton = new QPushButton("Simulate Jam Fault", this);
     resetButton = new QPushButton("Reset", this);
 
+    machineStateLabel->setAlignment(Qt::AlignCenter);
+    machineStateLabel->setMinimumHeight(40);
+
     historyTable = new QTableWidget(this);
     historyTable->setColumnCount(3);
     historyTable->setHorizontalHeaderLabels({"Timestamp", "Type", "Message"});
@@ -67,6 +70,8 @@ void MainWindow::refreshUi() {
     SimulationSnapshot snapshot = engine.getSnapshot();
 
     machineStateLabel->setText(QString("Machine State: %1").arg(QString::fromStdString(snapshot.machineState)));
+    updateMachineStateStyle(snapshot.machineState);
+
     conveyorLabel->setText(QString("Conveyor Running: %1").arg(snapshot.conveyorRunning ? "YES" : "NO"));
     gateLabel->setText(QString("Gate Position: %1").arg(QString::fromStdString(snapshot.gatePosition)));
     sensorLabel->setText(QString("Sensor Blocked: %1").arg(snapshot.sensorBlocked ? "YES" : "NO"));
@@ -76,6 +81,7 @@ void MainWindow::refreshUi() {
     refreshHistoryTable();
 }
 
+
 void MainWindow::refreshHistoryTable() {
     const auto& history = engine.getEventHistory();
 
@@ -84,12 +90,79 @@ void MainWindow::refreshHistoryTable() {
     for (int i = 0; i < static_cast<int>(history.size()); ++i) {
         historyTable->insertRow(i);
 
-        historyTable->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(history[i].timestamp)));
-        historyTable->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(history[i].type)));
-        historyTable->setItem(i, 2, new QTableWidgetItem(QString::fromStdString(history[i].message)));
+        auto* timestampItem = new QTableWidgetItem(QString::fromStdString(history[i].timestamp));
+        auto* typeItem = new QTableWidgetItem(QString::fromStdString(history[i].type));
+        auto* messageItem = new QTableWidgetItem(QString::fromStdString(history[i].message));
+
+        QColor backgroundColor;
+        QColor foregroundColor;
+
+        if (history[i].type == "ALARM") {
+            backgroundColor = QColor(255, 220, 220);   // light red
+            foregroundColor = QColor(120, 0, 0);       // dark red text
+        } else {
+            backgroundColor = QColor(220, 235, 255);   // light blue
+            foregroundColor = QColor(0, 40, 90);       // dark blue text
+        }
+
+        timestampItem->setBackground(QBrush(backgroundColor));
+        typeItem->setBackground(QBrush(backgroundColor));
+        messageItem->setBackground(QBrush(backgroundColor));
+
+        timestampItem->setForeground(QBrush(foregroundColor));
+        typeItem->setForeground(QBrush(foregroundColor));
+        messageItem->setForeground(QBrush(foregroundColor));
+
+        historyTable->setItem(i, 0, timestampItem);
+        historyTable->setItem(i, 1, typeItem);
+        historyTable->setItem(i, 2, messageItem);
     }
 
     historyTable->scrollToBottom();
+}
+
+void MainWindow::updateMachineStateStyle(const std::string& machineState) {
+    QString style;
+
+    if (machineState == "Running") {
+        style = "QLabel { "
+                "background-color: #d4edda; "
+                "color: #155724; "
+                "border: 1px solid #155724; "
+                "border-radius: 8px; "
+                "padding: 8px; "
+                "font-weight: bold; "
+                "}";
+    } else if (machineState == "Starting") {
+        style = "QLabel { "
+                "background-color: #fff3cd; "
+                "color: #856404; "
+                "border: 1px solid #856404; "
+                "border-radius: 8px; "
+                "padding: 8px; "
+                "font-weight: bold; "
+                "}";
+    } else if (machineState == "Fault" || machineState == "EmergencyStop") {
+        style = "QLabel { "
+                "background-color: #f8d7da; "
+                "color: #721c24; "
+                "border: 1px solid #721c24; "
+                "border-radius: 8px; "
+                "padding: 8px; "
+                "font-weight: bold; "
+                "}";
+    } else {
+        style = "QLabel { "
+                "background-color: #e2e3e5; "
+                "color: #383d41; "
+                "border: 1px solid #383d41; "
+                "border-radius: 8px; "
+                "padding: 8px; "
+                "font-weight: bold; "
+                "}";
+    }
+
+    machineStateLabel->setStyleSheet(style);
 }
 
 void MainWindow::onStartClicked() {

@@ -73,7 +73,7 @@ conveyor_gui_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/moc
 conveyor_gui_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/uic
 conveyor_gui_autogen/timestamp: CMakeFiles/conveyor_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target conveyor_gui"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_gui_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_gui_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/timestamp
 
 CMakeFiles/conveyor_gui.dir/codegen:
@@ -83,43 +83,43 @@ CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o: CMakeFi
 CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o: conveyor_gui_autogen/mocs_compilation.cpp
 CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o: CMakeFiles/conveyor_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o -MF CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp
 
 CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp > CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp > CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp -o CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/build/conveyor_gui_autogen/mocs_compilation.cpp -o CMakeFiles/conveyor_gui.dir/conveyor_gui_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o: CMakeFiles/conveyor_gui.dir/flags.make
 CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp
 CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o: CMakeFiles/conveyor_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o -MF CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o.d -o CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o -MF CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o.d -o CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp
 
 CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp > CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp > CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.i
 
 CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp -o CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/guiMain.cpp -o CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.s
 
 CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: CMakeFiles/conveyor_gui.dir/flags.make
 CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp
 CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: CMakeFiles/conveyor_gui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o -MF CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o.d -o CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o -MF CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o.d -o CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp
 
 CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp > CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp > CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.i
 
 CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp -o CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/MainWindow.cpp -o CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.s
 
 # Object files for target conveyor_gui
 conveyor_gui_OBJECTS = \

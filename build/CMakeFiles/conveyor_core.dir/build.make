@@ -73,7 +73,7 @@ conveyor_core_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/moc
 conveyor_core_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/uic
 conveyor_core_autogen/timestamp: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target conveyor_core"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_core_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_core_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/timestamp
 
 CMakeFiles/conveyor_core.dir/codegen:
@@ -83,113 +83,113 @@ CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o: CMake
 CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o: conveyor_core_autogen/mocs_compilation.cpp
 CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o -MF CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o -MF CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp
 
 CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp > CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp > CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp -o CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/build/conveyor_core_autogen/mocs_compilation.cpp -o CMakeFiles/conveyor_core.dir/conveyor_core_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp
 CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o -MF CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o -MF CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/MachineController.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp
 
 CMakeFiles/conveyor_core.dir/src/MachineController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/MachineController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp > CMakeFiles/conveyor_core.dir/src/MachineController.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp > CMakeFiles/conveyor_core.dir/src/MachineController.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp -o CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/MachineController.cpp -o CMakeFiles/conveyor_core.dir/src/MachineController.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp
 CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o -MF CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o -MF CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp
 
 CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp > CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp > CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp -o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/Conveyor.cpp -o CMakeFiles/conveyor_core.dir/src/Conveyor.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp
 CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o -MF CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o -MF CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp
 
 CMakeFiles/conveyor_core.dir/src/Sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/Sensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp > CMakeFiles/conveyor_core.dir/src/Sensor.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp > CMakeFiles/conveyor_core.dir/src/Sensor.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/Sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/Sensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp -o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/Sensor.cpp -o CMakeFiles/conveyor_core.dir/src/Sensor.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp
 CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o -MF CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o -MF CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp
 
 CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp > CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp > CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp -o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/SorterGate.cpp -o CMakeFiles/conveyor_core.dir/src/SorterGate.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp
 CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o -MF CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o -MF CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp
 
 CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp > CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp > CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp -o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/AlarmManager.cpp -o CMakeFiles/conveyor_core.dir/src/AlarmManager.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp
 CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -MF CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -MF CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp
 
 CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp > CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp > CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/ConfigLoader.cpp -o CMakeFiles/conveyor_core.dir/src/ConfigLoader.cpp.s
 
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: CMakeFiles/conveyor_core.dir/flags.make
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o: CMakeFiles/conveyor_core.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -MF CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -MF CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o.d -o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.o -c /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp
 
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp > CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp > CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.i
 
 CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp -o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maliha/Desktop/conveyor-simulator/src/SimulationEngine.cpp -o CMakeFiles/conveyor_core.dir/src/SimulationEngine.cpp.s
 
 # Object files for target conveyor_core
 conveyor_core_OBJECTS = \

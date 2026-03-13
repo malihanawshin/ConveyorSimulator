@@ -72,7 +72,7 @@ conveyor_sim_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/moc
 conveyor_sim_autogen/timestamp: /Users/maliha/Qt/6.10.2/macos/libexec/uic
 conveyor_sim_autogen/timestamp: CMakeFiles/conveyor_sim_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target conveyor_sim"
-	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_sim_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/maliha/Desktop/conveyor-simulator/build/CMakeFiles/conveyor_sim_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/bin/cmake -E touch /Users/maliha/Desktop/conveyor-simulator/build/conveyor_sim_autogen/timestamp
 
 CMakeFiles/conveyor_sim_autogen.dir/codegen:
