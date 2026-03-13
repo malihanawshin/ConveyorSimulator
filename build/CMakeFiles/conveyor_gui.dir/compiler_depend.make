@@ -3155,6 +3155,9 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: /Users/maliha/Desktop/conveyor
   /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qtransform.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvalidator.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGroupBox \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHeaderView \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
@@ -3171,6 +3174,7 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: /Users/maliha/Desktop/conveyor
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgroupbox.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qheaderview.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlabel.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \
@@ -4216,6 +4220,8 @@ CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o: /Users/maliha/Desktop/conveyor-si
 
 /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qdeadlinetimer.h:
 
+/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgroupbox.h:
+
 /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h:
 
 /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHeaderView:
@@ -4353,6 +4359,8 @@ CMakeFiles/conveyor_gui.dir/src/guiMain.cpp.o: /Users/maliha/Desktop/conveyor-si
 /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h:
 
 /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qbindingstorage.h:
+
+/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGroupBox:
 
 /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Headers/qatomic_cxx11.h:
 
@@ -6386,6 +6394,8 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h:
 
+/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
+
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
@@ -6419,6 +6429,8 @@ conveyor_gui_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
+
+/Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGridLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 

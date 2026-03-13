@@ -3158,6 +3158,9 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o
  /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qtransform.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qvalidator.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h
+ /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGridLayout
+ /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGroupBox
+ /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHeaderView
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QLabel
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QMainWindow
@@ -3174,6 +3177,7 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qframe.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h
+ /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgroupbox.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qheaderview.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlabel.h
  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlayout.h

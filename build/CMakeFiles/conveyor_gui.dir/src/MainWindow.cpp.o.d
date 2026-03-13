@@ -1012,4 +1012,8 @@ CMakeFiles/conveyor_gui.dir/src/MainWindow.cpp.o: \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
-  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QWidget
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/QGroupBox \
+  /Users/maliha/Qt/6.10.2/macos/lib/QtWidgets.framework/Headers/qgroupbox.h

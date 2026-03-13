@@ -3,6 +3,12 @@
 #include <QHeaderView>
 #include <QVBoxLayout>
 #include <QWidget>
+#include <QGridLayout>
+#include <QHBoxLayout>
+#include <QHeaderView>
+#include <QVBoxLayout>
+#include <QWidget>
+#include <QGroupBox>
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent), engine("config/routing.json") {
@@ -12,7 +18,15 @@ MainWindow::MainWindow(QWidget* parent)
 
 void MainWindow::setupUi() {
     auto* central = new QWidget(this);
-    auto* layout = new QVBoxLayout();
+
+    auto* mainLayout = new QVBoxLayout();
+    auto* statusGrid = new QGridLayout();
+    auto* buttonLayout = new QHBoxLayout();
+    auto* historyLayout = new QVBoxLayout();
+
+    auto* overviewGroup = new QGroupBox("Machine Overview", this);
+    auto* controlsGroup = new QGroupBox("Operator Controls", this);
+    auto* historyGroup = new QGroupBox("Alarm and Event History", this);
 
     machineStateLabel = new QLabel(this);
     conveyorLabel = new QLabel(this);
@@ -27,18 +41,6 @@ void MainWindow::setupUi() {
     jamButton = new QPushButton("Simulate Jam Fault", this);
     resetButton = new QPushButton("Reset", this);
 
-    machineStateLabel->setAlignment(Qt::AlignCenter);
-    machineStateLabel->setMinimumHeight(40);
-    conveyorLabel->setAlignment(Qt::AlignCenter);
-    sensorLabel->setAlignment(Qt::AlignCenter);
-    alarmLabel->setAlignment(Qt::AlignCenter);
-    gateLabel->setAlignment(Qt::AlignCenter);
-    blockedTicksLabel->setAlignment(Qt::AlignCenter);
-
-    conveyorLabel->setMinimumHeight(40);
-    sensorLabel->setMinimumHeight(40);
-    alarmLabel->setMinimumHeight(40);
-
     historyTable = new QTableWidget(this);
     historyTable->setColumnCount(3);
     historyTable->setHorizontalHeaderLabels({"Timestamp", "Type", "Message"});
@@ -48,23 +50,79 @@ void MainWindow::setupUi() {
     historyTable->setSelectionBehavior(QAbstractItemView::SelectRows);
     historyTable->setSelectionMode(QAbstractItemView::SingleSelection);
 
-    layout->addWidget(machineStateLabel);
-    layout->addWidget(conveyorLabel);
-    layout->addWidget(gateLabel);
-    layout->addWidget(sensorLabel);
-    layout->addWidget(blockedTicksLabel);
-    layout->addWidget(alarmLabel);
+    machineStateLabel->setAlignment(Qt::AlignCenter);
+    conveyorLabel->setAlignment(Qt::AlignCenter);
+    gateLabel->setAlignment(Qt::AlignCenter);
+    sensorLabel->setAlignment(Qt::AlignCenter);
+    blockedTicksLabel->setAlignment(Qt::AlignCenter);
+    alarmLabel->setAlignment(Qt::AlignCenter);
 
-    layout->addWidget(startButton);
-    layout->addWidget(typeAButton);
-    layout->addWidget(typeBButton);
-    layout->addWidget(jamButton);
-    layout->addWidget(resetButton);
-    layout->addWidget(historyTable);
+    machineStateLabel->setMinimumHeight(40);
+    conveyorLabel->setMinimumHeight(40);
+    gateLabel->setMinimumHeight(40);
+    sensorLabel->setMinimumHeight(40);
+    blockedTicksLabel->setMinimumHeight(40);
+    alarmLabel->setMinimumHeight(40);
 
-    layout->setSpacing(6);
-    layout->setContentsMargins(10, 10, 10, 10);
-    layout->setAlignment(Qt::AlignTop);
+    startButton->setMinimumHeight(36);
+    typeAButton->setMinimumHeight(36);
+    typeBButton->setMinimumHeight(36);
+    jamButton->setMinimumHeight(36);
+    resetButton->setMinimumHeight(36);
+
+    statusGrid->setHorizontalSpacing(10);
+    statusGrid->setVerticalSpacing(10);
+    statusGrid->setContentsMargins(8, 8, 8, 8);
+
+    statusGrid->addWidget(machineStateLabel, 0, 0);
+    statusGrid->addWidget(conveyorLabel,     0, 1);
+    statusGrid->addWidget(gateLabel,         1, 0);
+    statusGrid->addWidget(sensorLabel,       1, 1);
+    statusGrid->addWidget(blockedTicksLabel, 2, 0);
+    statusGrid->addWidget(alarmLabel,        2, 1);
+
+    statusGrid->setColumnStretch(0, 1);
+    statusGrid->setColumnStretch(1, 1);
+
+    overviewGroup->setLayout(statusGrid);
+
+    buttonLayout->setSpacing(10);
+    buttonLayout->setContentsMargins(8, 8, 8, 8);
+    buttonLayout->addWidget(startButton);
+    buttonLayout->addWidget(typeAButton);
+    buttonLayout->addWidget(typeBButton);
+    buttonLayout->addWidget(jamButton);
+    buttonLayout->addWidget(resetButton);
+
+    controlsGroup->setLayout(buttonLayout);
+
+    historyLayout->setContentsMargins(8, 8, 8, 8);
+    historyLayout->addWidget(historyTable);
+    historyGroup->setLayout(historyLayout);
+
+    QString groupStyle =
+        "QGroupBox { "
+        "font-weight: bold; "
+        "border: 1px solid #b0b0b0; "
+        "border-radius: 6px; "
+        "margin-top: 10px; "
+        "padding-top: 10px; "
+        "} "
+        "QGroupBox::title { "
+        "subcontrol-origin: margin; "
+        "left: 10px; "
+        "padding: 0 4px 0 4px; "
+        "}";
+
+    overviewGroup->setStyleSheet(groupStyle);
+    controlsGroup->setStyleSheet(groupStyle);
+    historyGroup->setStyleSheet(groupStyle);
+
+    mainLayout->setSpacing(12);
+    mainLayout->setContentsMargins(10, 10, 10, 10);
+    mainLayout->addWidget(overviewGroup);
+    mainLayout->addWidget(controlsGroup);
+    mainLayout->addWidget(historyGroup, 1);
 
     connect(startButton, &QPushButton::clicked, this, &MainWindow::onStartClicked);
     connect(typeAButton, &QPushButton::clicked, this, &MainWindow::onTypeAClicked);
@@ -72,13 +130,13 @@ void MainWindow::setupUi() {
     connect(jamButton, &QPushButton::clicked, this, &MainWindow::onJamClicked);
     connect(resetButton, &QPushButton::clicked, this, &MainWindow::onResetClicked);
 
-    central->setLayout(layout);
+    central->setLayout(mainLayout);
     setCentralWidget(central);
     setWindowTitle("Conveyor Sorting Cell HMI");
-    resize(800, 500);
-    layout->addStretch();
-
+    resize(950, 700);
 }
+
+
 
 void MainWindow::refreshUi() {
     SimulationSnapshot snapshot = engine.getSnapshot();
