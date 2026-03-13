@@ -34,6 +34,7 @@ void MainWindow::setupUi() {
     sensorLabel = new QLabel(this);
     blockedTicksLabel = new QLabel(this);
     alarmLabel = new QLabel(this);
+    
 
     startButton = new QPushButton("Start Machine", this);
     typeAButton = new QPushButton("Process TypeA", this);
@@ -56,7 +57,7 @@ void MainWindow::setupUi() {
     sensorLabel->setAlignment(Qt::AlignCenter);
     blockedTicksLabel->setAlignment(Qt::AlignCenter);
     alarmLabel->setAlignment(Qt::AlignCenter);
-
+   
     machineStateLabel->setMinimumHeight(40);
     conveyorLabel->setMinimumHeight(40);
     gateLabel->setMinimumHeight(40);
@@ -146,20 +147,18 @@ void MainWindow::refreshUi() {
 
     conveyorLabel->setText(QString("Conveyor Running: %1").arg(snapshot.conveyorRunning ? "YES" : "NO"));
     updateConveyorLabelStyle(snapshot.conveyorRunning);
-
-    //gateLabel->setText(QString("Gate Position: %1").arg(QString::fromStdString(snapshot.gatePosition)));
+    
     gateLabel->setText(QString("Gate Position: %1").arg(QString::fromStdString(snapshot.gatePosition)));
     updateGateLabelStyle(snapshot.gatePosition);
-
-    //sensorLabel->setText(QString("Sensor Blocked: %1").arg(snapshot.sensorBlocked ? "YES" : "NO"));
-    //updateSensorLabelStyle(snapshot.sensorBlocked);
+    
     blockedTicksLabel->setText(QString("Sensor Blocked Ticks: %1").arg(snapshot.sensorBlockedTicks));
     updateBlockedTicksLabelStyle(snapshot.sensorBlockedTicks);
 
-    //blockedTicksLabel->setText(QString("Sensor Blocked Ticks: %1").arg(snapshot.sensorBlockedTicks));
-
     alarmLabel->setText(QString("Latest Alarm: %1").arg(QString::fromStdString(snapshot.latestAlarm)));
     updateAlarmLabelStyle(snapshot.latestAlarm);
+
+    sensorLabel->setText(QString("Sensor Blocked: %1").arg(snapshot.sensorBlocked ? "YES" : "NO"));
+    updateSensorLabelStyle(snapshot.sensorBlocked);
 
     refreshHistoryTable();
 }
@@ -395,8 +394,6 @@ void MainWindow::updateBlockedTicksLabelStyle(int blockedTicks) {
 
     blockedTicksLabel->setStyleSheet(style);
 }
-
-
 
 void MainWindow::onStartClicked() {
     engine.startupStep();

@@ -22,26 +22,26 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "conveyor_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "conveyor_tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "conveyor_gui_autogen::@6890427a1f51a3e7e1df",
+	"id" : "conveyor_tests_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "conveyor_gui_autogen",
+	"name" : "conveyor_tests_autogen",
 	"orderDependencies" : 
 	[
+		{
+			"id" : "conveyor_tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
 		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "conveyor_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -72,19 +72,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/conveyor_gui_autogen",
+			"path" : "build/CMakeFiles/conveyor_tests_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/conveyor_gui_autogen.rule",
+			"path" : "build/CMakeFiles/conveyor_tests_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/conveyor_gui_autogen/timestamp.rule",
+			"path" : "build/conveyor_tests_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

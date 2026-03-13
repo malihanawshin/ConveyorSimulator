@@ -38,6 +38,7 @@ private:
     QPushButton* resetButton;
 
     QTableWidget* historyTable;
+    
 
     void setupUi();
     void refreshUi();
@@ -48,6 +49,6 @@ private:
     void updateAlarmLabelStyle(const std::string& latestAlarm);
     void updateGateLabelStyle(const std::string& gatePosition);
     void updateBlockedTicksLabelStyle(int blockedTicks);
-
+    void updateModeLabelStyle(const std::string& mode);
 
 };

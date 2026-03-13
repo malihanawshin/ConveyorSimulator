@@ -223,15 +223,15 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "conveyor_core::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "conveyor_sim_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "conveyor_sim_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "conveyor_core::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "conveyor_sim::@6890427a1f51a3e7e1df",
@@ -295,6 +295,13 @@
 	"orderDependencies" : 
 	[
 		{
+			"id" : "conveyor_sim_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "conveyor_sim_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -303,13 +310,6 @@
 		{
 			"backtrace" : 18,
 			"id" : "conveyor_sim::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "conveyor_sim_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "conveyor_sim_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
