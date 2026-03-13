@@ -196,81 +196,23 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
   /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /opt/homebrew/bin/cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
-  /opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake \
   /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake \
   /opt/homebrew/share/cmake/Modules/FetchContent.cmake \
   /opt/homebrew/share/cmake/Modules/FetchContent/CMakeLists.cmake.in \
@@ -282,19 +224,15 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
   /opt/homebrew/share/cmake/Modules/GoogleTest.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake \
   /opt/homebrew/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake \
-  /opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake \
@@ -308,13 +246,19 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
 
+/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
+
+/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake:
+
 /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake:
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake:
 
-/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
+/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
-/opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
+/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
+
+/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
@@ -330,69 +274,15 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /opt/homebrew/share/cmake/Modules/FetchContent.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
 /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
 /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:
+
+/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
@@ -400,53 +290,21 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
-/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
-
 /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
-/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:
+/Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
-/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
+/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
@@ -456,11 +314,7 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
-/opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
@@ -469,8 +323,6 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
@@ -481,8 +333,6 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
@@ -540,17 +390,11 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /opt/homebrew/share/cmake/Modules/GoogleTest.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
 
@@ -559,8 +403,6 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
@@ -572,15 +414,11 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake:
 
@@ -640,13 +478,13 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
@@ -655,8 +493,6 @@ conveyor_tests_autogen/timestamp: /Users/maliha/Desktop/conveyor-simulator/CMake
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake:
-
-/opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
@@ -684,8 +520,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake:
@@ -708,8 +542,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
@@ -725,8 +557,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
@@ -746,8 +576,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake:
 
-/opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
@@ -761,10 +589,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
-/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
-
-/Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
@@ -800,15 +624,11 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
-
-/opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
@@ -840,8 +660,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /opt/homebrew/share/cmake/Modules/MacroAddFileDependencies.cmake:
 
-/opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/maliha/Desktop/conveyor-simulator/tests/ConveyorSystemTests.cpp:
@@ -868,8 +686,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
@@ -887,8 +703,6 @@ CMakeFiles/4.2.3/CMakeSystem.cmake:
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/maliha/Qt/6.10.2/macos/lib/cmake/Qt6/Qt6Targets.cmake:
-
-/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 

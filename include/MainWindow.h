@@ -43,5 +43,11 @@ private:
     void refreshUi();
     void refreshHistoryTable();
     void updateMachineStateStyle(const std::string& machineState);
+    void updateConveyorLabelStyle(bool isRunning);
+    void updateSensorLabelStyle(bool isBlocked);
+    void updateAlarmLabelStyle(const std::string& latestAlarm);
+    void updateGateLabelStyle(const std::string& gatePosition);
+    void updateBlockedTicksLabelStyle(int blockedTicks);
+
 
 };
