@@ -7,8 +7,8 @@ Conveyor Simulator is a C++ desktop application that simulates a small conveyor-
 This project models a simple conveyor system with a controller, entry sensor, sorter gate, alarm handling, and a simulation engine. It also includes a Qt Widgets interface that presents machine overview data, operator controls, and timestamped alarm/event history in a dashboard-style layout inspired by industrial HMI screens.
 
 ## Screenshots
-<img width="500" height="400" alt="Screenshot 2026-03-13 at 4 09 28 PM" src="https://github.com/user-attachments/assets/35f785a8-0eaa-44e5-a4f1-ea6289601347" />
-<img width="500" height="400" alt="Screenshot 2026-03-13 at 4 09 49 PM" src="https://github.com/user-attachments/assets/772daeea-c016-4320-bf93-b45d2a724e20" />
+<img width="900" height="700" alt="Screenshot 2026-03-13 at 4 09 28 PM" src="https://github.com/user-attachments/assets/35f785a8-0eaa-44e5-a4f1-ea6289601347" />
+<img width="900" height="700" alt="Screenshot 2026-03-13 at 4 09 49 PM" src="https://github.com/user-attachments/assets/772daeea-c016-4320-bf93-b45d2a724e20" />
 
 ## Features
 
